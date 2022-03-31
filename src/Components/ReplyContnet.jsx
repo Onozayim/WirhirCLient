@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../style/answerPost.css";
+import "../style/AnswerPost.css";
 
 const server = process.env.SERVER;
 
