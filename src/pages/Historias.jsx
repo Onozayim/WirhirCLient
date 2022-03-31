@@ -106,7 +106,7 @@ const Historias = () => {
 
             {story.image.filename && (
               <img
-                src={`https://${server}/Images/${story?.image?.filename}`}
+                src={`https://mighty-badlands-64956.herokuapp.com/Images/${story?.image?.filename}`}
                 className="post__image"
               />
             )}

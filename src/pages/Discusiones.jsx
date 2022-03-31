@@ -109,7 +109,7 @@ const Discusiones = () => {
             <p>{post.body}</p>
             {post.image.filename && (
               <img
-                src={`https://${server}/Images/${post?.image?.filename}`}
+                src={`https://mighty-badlands-64956.herokuapp.com/Images/${post?.image?.filename}`}
                 className="post__image"
               />
             )}

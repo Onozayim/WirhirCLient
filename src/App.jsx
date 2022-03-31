@@ -47,14 +47,14 @@ import RecoverPasswordForm from "./pages/RecoverPasswordForm";
 const server = process.env.SERVER;
 
 const wsLink = new WebSocketLink({
-  uri: `ws://${server}/graphql`,
+  uri: `ws://mighty-badlands-64956.herokuapp.com/graphql`,
   options: {
     reconnnect: true,
   },
 });
 
 const htppLink = new createUploadLink({
-  uri: `https://${server}/graphql`,
+  uri: `https://mighty-badlands-64956.herokuapp.com/graphql`,
 });
 
 const authLink = setContext(() => {

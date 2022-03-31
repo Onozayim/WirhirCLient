@@ -180,8 +180,8 @@ const Perfil = () => {
             <img
               src={
                 userInfo.profilePicture.filename
-                  ? `https://${server}/Images/${userInfo?.profilePicture?.filename}`
-                  : `https://${server}/Images/default.png`
+                  ? `https://mighty-badlands-64956.herokuapp.com/Images/${userInfo?.profilePicture?.filename}`
+                  : `https://mighty-badlands-64956.herokuapp.com/Images/default.png`
               }
               alt=""
               className="user__image"

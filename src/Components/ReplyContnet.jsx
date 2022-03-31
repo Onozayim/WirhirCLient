@@ -25,7 +25,7 @@ const ReplyContent = (props) => {
             <div className="reply__content" style={{ marginLeft: "20px" }}>
               {props.children}
               <img
-                src={`https://${server}/Images/${props.image}`}
+                src={`https://mighty-badlands-64956.herokuapp.com/Images/${props.image}`}
                 className="post__image"
               />
             </div>
