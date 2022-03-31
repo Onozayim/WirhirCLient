@@ -1,0 +1,25 @@
+.error__messages {
+	margin: auto;
+	margin-top: 10px;
+	background-color: rgb(231, 149, 149);
+	font-weight: bold;
+	color: rgb(255, 0, 0);
+	width: fit-content;
+	padding: 10px 30px;
+	border: 1px solid red;
+}
+
+.validate__messages {
+	margin: auto;
+	margin-top: 10px;
+	background-color: rgb(152, 231, 149);
+	font-weight: bold;
+	color: rgb(0, 163, 54);
+	width: fit-content;
+	padding: 10px 30px;
+	border: 1px solid green;
+}
+
+.error__messages li {
+	list-style: square;
+}

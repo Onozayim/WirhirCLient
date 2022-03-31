@@ -1,0 +1,164 @@
+.modal {
+	text-align: center;
+	position: fixed;
+	margin-top: 50vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #282c34;
+	padding: 20px;
+	color: violet;
+	z-index: 1000;
+}
+
+.confirmation__modal {
+	text-align: center;
+	position: fixed;
+	margin-top: 50vh;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #282c34;
+	padding: 0px;
+	color: violet;
+	z-index: 1000;
+	width: 70%;
+}
+
+.confirmation__modal h1 {
+	padding: 0%;
+}
+
+.confirmation__modal hr {
+	height: 2px;
+	background-color: violet;
+	border: none;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1000;
+	height: 100%;
+}
+
+.image__input {
+	color: violet;
+}
+
+.title__input {
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 15px;
+	border-color: violet;
+	background-color: transparent;
+	opacity: 0.8;
+	color: white;
+	margin-bottom: 10px;
+	padding: 4px 4px;
+}
+
+textarea {
+	resize: none;
+}
+
+.button__modal {
+	border: none;
+	background-color: violet;
+	color: white;
+	padding: 10px 4px;
+	border-radius: 10px;
+	border-top: 20px;
+	margin: 0 10px;
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+.conf__button__modal {
+	border: none;
+	background-color: violet;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border-top: 20px;
+	margin: 0 5px;
+	margin-bottom: 8px;
+}
+
+.center__modal__actions button {
+	margin: auto;
+	margin-top: 10px;
+}
+
+.modal__content {
+	display: block;
+}
+
+.text__input {
+	border-color: violet;
+	color: white;
+	background-color: transparent;
+	height: 100px;
+	width: 80%;
+	padding: 4px 4px;
+}
+
+.check__input {
+	border-bottom: 10px;
+	border-right: 100px;
+}
+
+.image__cont {
+	margin: 10px;
+}
+
+.check__cont {
+	margin: 10px;
+}
+
+.modal__title {
+	text-align: left;
+	padding: 10px;
+	color: white;
+	background-color: violet;
+}
+
+.modal__title h1 {
+	text-align: left;
+}
+
+.modal__actions {
+	display: flex;
+	margin-top: 10px;
+	justify-content: flex-end;
+	align-content: flex-end;
+	text-align: end;
+	padding: 10px;
+}
+
+.modal__message {
+	padding: 50px;
+	font-size: 20px;
+}
+
+.modal__error {
+	margin-top: 10px;
+	color: rgb(243, 57, 57);
+	font-weight: bolder;
+}
+
+@media (max-width: 550px) {
+	.modal__title h1 {
+		text-align: center;
+	}
+
+	.modal__message {
+		padding: 20px;
+	}
+}

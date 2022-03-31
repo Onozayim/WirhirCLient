@@ -1,0 +1,144 @@
+.calls__info__container {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0px;
+	margin-top: 80px;
+}
+
+.calls__info__container p {
+	font-size: 20px;
+}
+
+.calls__actions button {
+	display: block;
+	margin: auto;
+	background-color: violet;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	width: 70%;
+	padding: 15px 0px;
+	margin-top: 10px;
+}
+
+.call__server__container {
+	width: 60%;
+	margin: auto;
+	margin-top: 80px;
+	border: violet 2px solid;
+}
+
+h1 {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.nombre__publico {
+	background-color: violet;
+	padding: 5px;
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.call__server__actions__container {
+	display: flex;
+	justify-content: center;
+	padding: 10px 10px;
+	margin-top: 20px;
+	background-color: violet;
+}
+
+.call__server__actions__container button {
+	border: none;
+	background-color: #282c34;
+	padding: 20px;
+	border-radius: 360px;
+	font-size: 30px;
+	width: fit-content;
+	color: white;
+}
+
+.leave__server__button {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border: none;
+	background-color: violet;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	width: 30%;
+}
+
+.call__server__button {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	background-color: violet;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	width: 90%;
+}
+
+.history__container {
+	width: 70%;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.history__element {
+	color: white;
+	background-color: #242526;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 15px;
+	border: violet 2px solid;
+}
+
+.history__data {
+	display: flex;
+}
+
+.history__element p {
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.history__actions button {
+	font-weight: 600;
+	border: none;
+	background-color: violet;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	margin-left: 20px;
+}
+
+@media (max-width: 550px) {
+	.history__element {
+		display: block;
+	}
+
+	.history__actions {
+		width: 100%;
+		display: block;
+		margin: auto;
+	}
+
+	.history__actions button {
+		width: 90%;
+		margin: auto;
+		margin-top: 10px;
+		display: block;
+	}
+
+	.calls__info__container {
+		margin-top: 20px;
+	}
+}

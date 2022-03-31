@@ -1,0 +1,50 @@
+.friend__request__container {
+  width: 77%;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: #242526;
+}
+
+.friend__request__display {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.date {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.friend__request__container button {
+  border: none;
+  background-color: violet;
+  padding: 12px 30px;
+  color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 550px) {
+  .friend__request__container {
+    width: 80%;
+    display: block;
+    padding: 0;
+  }
+
+  .friend__request__container p {
+    margin-left: 20px;
+  }
+
+  .friend__request__container button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .friend__request__container .friend__request__actions button {
+    width: 80%;
+  }
+}

@@ -1,0 +1,17 @@
+.question__container {
+	color: white;
+	margin-left: 20px;
+}
+
+.option {
+	display: block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+@media (max-width: 550px) {
+	.question__container {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
