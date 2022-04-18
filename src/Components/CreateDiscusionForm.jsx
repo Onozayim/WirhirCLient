@@ -28,9 +28,6 @@ const CreateDiscusionPost = ({ open, close, lenguage }) => {
     if (!file) return;
 
     setPicture(file);
-
-    console.log(picture);
-    console.log(file);
   };
 
   const submitHanlder = (e) => {

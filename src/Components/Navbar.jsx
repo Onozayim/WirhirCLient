@@ -82,9 +82,7 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/stories");
-                      console.log(window.location.href);
                       window.location.reload();
-                      console.log("hola");
                     } else {
                       navigate("/stories");
                     }
@@ -102,9 +100,7 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/discusions");
-                      console.log(window.location.href);
                       window.location.reload();
-                      console.log("hola");
                     } else {
                       navigate("/discusions");
                     }
@@ -124,9 +120,7 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/calls");
-                      console.log(window.location.href);
                       window.location.reload();
-                      console.log("hola");
                     } else {
                       navigate("/calls");
                     }
@@ -144,7 +138,6 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/chat");
-                      console.log(window.location.href);
                       window.location.reload();
                     } else {
                       navigate("/chat");
@@ -167,7 +160,6 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/articles");
-                      console.log(window.location.href);
                       window.location.reload();
                     } else {
                       navigate("/articles");
@@ -185,7 +177,6 @@ const NavBar = (props) => {
                     "https://wirhir.netlify.app/llamadas/server"
                   ) {
                     navigate("/tests");
-                    console.log(window.location.href);
                     window.location.reload();
                   } else {
                     navigate("/tests");
@@ -222,7 +213,6 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/profile");
-                      console.log(window.location.href);
                       window.location.reload();
                     } else {
                       navigate("/profile");
@@ -241,7 +231,6 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/friends");
-                      console.log(window.location.href);
                       window.location.reload();
                     } else {
                       navigate("/friends");
@@ -260,7 +249,6 @@ const NavBar = (props) => {
                       "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/friendRequests");
-                      console.log(window.location.href);
                       window.location.reload();
                     } else {
                       navigate("/friendRequests");
@@ -313,9 +301,7 @@ function DropDownItem(props) {
           window.location.href === "https://wirhir.netlify.app/llamadas/server"
         ) {
           navigate(`/${props.link}`);
-          console.log(window.location.href);
           window.location.reload();
-          console.log("hola");
         } else {
           navigate(`/${props.link}`);
         }

@@ -19,8 +19,6 @@ const EditUserForm = ({ open, close, bio, userName }) => {
   const context = useContext(AuthContext);
 
   const [uploadFile] = useMutation(UPDATE_PROFILE, {
-    onCompleted: (data) => console.log(data),
-
     onError: (err) => {
       setError(err.message);
     },
@@ -38,9 +36,6 @@ const EditUserForm = ({ open, close, bio, userName }) => {
     if (!file) return;
 
     setProfilePicture(file);
-
-    console.log(profilePicture);
-    console.log(file);
   };
 
   const submitHandler = (e) => {

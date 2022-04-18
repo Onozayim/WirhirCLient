@@ -2,52 +2,51 @@ import React, { createContext, useState } from "react";
 var name;
 
 const createRandomName = () => {
-	const elements = [
-		"Perro",
-		"Gato",
-		"Hamster",
-		"Oso",
-		"Leon",
-		"Tigre",
-		"Jaguar",
-		"Pantera",
-		"Zebra",
-		"Jirafa",
-	];
+  const elements = [
+    "Perro",
+    "Gato",
+    "Hamster",
+    "Oso",
+    "Leon",
+    "Tigre",
+    "Jaguar",
+    "Pantera",
+    "Zebra",
+    "Jirafa",
+  ];
 
-	const name = `${
-		elements[Math.floor(Math.random() * elements.length)]
-	}_${Math.floor(Math.random() * 100000).toString()}`;
+  const name = `${
+    elements[Math.floor(Math.random() * elements.length)]
+  }_${Math.floor(Math.random() * 100000).toString()}`;
 
-	console.log(name);
-	return name;
+  return name;
 };
 
 if (localStorage.getItem("userName")) {
-	name = localStorage.getItem("userName");
+  name = localStorage.getItem("userName");
 } else {
-	name = createRandomName();
+  name = createRandomName();
 }
 
 const UserCallNameContext = createContext({
-	userName: null,
-	name: name,
+  userName: null,
+  name: name,
 
-	setName: () => {},
+  setName: () => {},
 });
 
 const CallNameProvider = ({ children }) => {
-	const [userName, setUserName] = useState(null);
+  const [userName, setUserName] = useState(null);
 
-	const setName = (input) => {
-		setUserName(input);
-		localStorage.setItem("userName", input);
-	};
-	return (
-		<UserCallNameContext.Provider value={{ userName, setName, name }}>
-			{children}
-		</UserCallNameContext.Provider>
-	);
+  const setName = (input) => {
+    setUserName(input);
+    localStorage.setItem("userName", input);
+  };
+  return (
+    <UserCallNameContext.Provider value={{ userName, setName, name }}>
+      {children}
+    </UserCallNameContext.Provider>
+  );
 };
 
 export { CallNameProvider, UserCallNameContext };

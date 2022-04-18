@@ -82,7 +82,6 @@ const ContextProvider = ({ children }) => {
     });
 
     socket.on("partnerLeave", () => {
-      console.log("partner leave");
       setPartner({
         partnerSocketID: null,
         id: null,

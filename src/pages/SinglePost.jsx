@@ -52,7 +52,6 @@ const SinglePost = () => {
   });
 
   const handleClick = () => {
-    console.log(post);
     refetch();
   };
 

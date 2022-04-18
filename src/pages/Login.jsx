@@ -58,8 +58,6 @@ const LoginForm = () => {
   };
 
   const responseGoogle = (response) => {
-    console.log(response.profileObj);
-
     setValues({
       email: response.profileObj.email,
       password: "password:" + response.profileObj.googleId + "18300303",

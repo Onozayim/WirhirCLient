@@ -63,7 +63,6 @@ const Historias = () => {
   });
 
   const handleClick = () => {
-    console.log(story);
     refetch();
   };
 

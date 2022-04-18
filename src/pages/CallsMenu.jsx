@@ -87,8 +87,6 @@ const CallsMenu = () => {
 
     const complement = month + day + hour + "";
 
-    console.log(complement);
-
     do {
       if (lenguage === "español") {
         name = `${elements[Math.floor(Math.random() * elements.length)]}_${
@@ -104,8 +102,6 @@ const CallsMenu = () => {
         if (item.name === name) flag = false;
       });
     } while (!flag);
-
-    console.log(name);
 
     addName({
       variables: {

@@ -45,7 +45,6 @@ const Perfil = () => {
     },
 
     onError: (err) => {
-      console.log(err);
       setErr(err.message);
     },
   });

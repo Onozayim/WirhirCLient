@@ -37,9 +37,6 @@ const CreateCommentForm = ({
     if (!file) return;
 
     setPicture(file);
-
-    console.log(picture);
-    console.log(file);
   };
 
   const { lenguage } = useContext(LenguageContext);
@@ -52,7 +49,6 @@ const CreateCommentForm = ({
     publish({
       update(proxy, result) {
         setRequestDataSender(result.data.createComment.publicPublisher);
-        console.log(result.data.createComment.publicPublisher);
 
         const data = proxy.readQuery({
           query: GET_COMMENTS,
