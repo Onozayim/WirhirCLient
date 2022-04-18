@@ -81,6 +81,11 @@ const GET_STORY = gql`
       confident
       publicPublisher
       publisher
+      image {
+        encoding
+        filename
+        mimetype
+      }
     }
   }
 `;

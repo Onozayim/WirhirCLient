@@ -84,11 +84,13 @@ const UPDATE_PROFILE = gql`
     $lenguage: String!
     $biography: String
     $userName: String
+    $image: Upload
   ) {
     updateProfile(
       lenguage: $lenguage
       biography: $biography
       userName: $userName
+      image: $image
     ) {
       id
       token

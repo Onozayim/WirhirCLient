@@ -82,7 +82,7 @@ const SingleStory = () => {
           <div className="body__container">
             <p>{story.body}</p>
 
-            {story.image.filename && (
+            {story?.image?.filename && (
               <img
                 src={`https://mighty-badlands-64956.herokuapp.com/Images/${story?.image?.filename}`}
                 className="post__image"
