@@ -103,7 +103,7 @@ const LoginForm = () => {
             {lenguage === "español" ? "Iniciar Sesion" : "Login"}
           </button>
           <a
-            href="http://localhost:3000/password__form"
+            href="https://wirhir.netlify.app/password__form"
             className="label__form"
           >
             {lenguage === "español"
@@ -114,7 +114,7 @@ const LoginForm = () => {
             {lenguage === "español" ? "CREAR UNA CUENTA" : "CREATE AN ACCOUNT"}
           </button>
           <GoogleLogin
-            clientId="796918935719-47h60p60kgnnggv72gjbi4ch2ol2mj8n.apps.googleusercontent.com"
+            clientId="210172707100-ptc1rplt0v1timtsrq7shqmbmqedpqe3.apps.googleusercontent.com"
             render={(renderProps) => (
               <button
                 className="btn__form"

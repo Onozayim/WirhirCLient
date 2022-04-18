@@ -79,7 +79,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/stories");
                       console.log(window.location.href);
@@ -99,7 +99,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/discusions");
                       console.log(window.location.href);
@@ -121,7 +121,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/calls");
                       console.log(window.location.href);
@@ -141,7 +141,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/chat");
                       console.log(window.location.href);
@@ -164,7 +164,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/articles");
                       console.log(window.location.href);
@@ -182,7 +182,7 @@ const NavBar = (props) => {
                 onClick={() => {
                   if (
                     window.location.href ===
-                    "http://localhost:3000/llamadas/server"
+                    "https://wirhir.netlify.app/llamadas/server"
                   ) {
                     navigate("/tests");
                     console.log(window.location.href);
@@ -219,7 +219,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/profile");
                       console.log(window.location.href);
@@ -238,7 +238,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/friends");
                       console.log(window.location.href);
@@ -257,7 +257,7 @@ const NavBar = (props) => {
                   onClick={() => {
                     if (
                       window.location.href ===
-                      "http://localhost:3000/llamadas/server"
+                      "https://wirhir.netlify.app/llamadas/server"
                     ) {
                       navigate("/friendRequests");
                       console.log(window.location.href);
@@ -309,7 +309,9 @@ function DropDownItem(props) {
     <a
       className="menu__item"
       onClick={() => {
-        if (window.location.href === "http://localhost:3000/llamadas/server") {
+        if (
+          window.location.href === "https://wirhir.netlify.app/llamadas/server"
+        ) {
           navigate(`/${props.link}`);
           console.log(window.location.href);
           window.location.reload();
