@@ -47,7 +47,7 @@ import RecoverPasswordForm from "./pages/RecoverPasswordForm";
 const server = process.env.SERVER;
 
 const wsLink = new WebSocketLink({
-  uri: `ws://mighty-badlands-64956.herokuapp.com/graphql`,
+  uri: `wss://mighty-badlands-64956.herokuapp.com/graphql`,
   options: {
     reconnnect: true,
   },
