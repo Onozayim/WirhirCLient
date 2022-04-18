@@ -10,7 +10,7 @@ const EditUserForm = ({ open, close, bio, userName }) => {
   const [profilePicture, setProfilePicture] = useState(null);
   const [profile, setProfile] = useState({
     biography: "",
-    userName: "",
+    userName: userName,
   });
 
   const { lenguage } = useContext(LenguageContext);
@@ -67,7 +67,7 @@ const EditUserForm = ({ open, close, bio, userName }) => {
               name="userName"
               onChange={handleBioChange}
               className="title__input"
-              //value={userName}
+              value={profile.userName}
             />
             <textarea
               name="biography"
