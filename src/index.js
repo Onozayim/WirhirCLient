@@ -10,8 +10,7 @@ import Hola from "./Hola";
 ReactDOM.render(
   <LenguageProvider>
     <AuthProvider>
-      <h1>HOLA</h1>
-      <Hola />
+      <App />
     </AuthProvider>
   </LenguageProvider>,
   document.getElementById("root")
