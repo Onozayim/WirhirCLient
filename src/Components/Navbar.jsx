@@ -52,7 +52,7 @@ const NavBar = (props) => {
               setShowRightBar(false);
             }}
           >
-            options
+            {lenguage.lenguage === "esañol" ? "Opciones" : "Options"}
           </li>
           <li
             onClick={() => {
