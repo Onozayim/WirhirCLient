@@ -25,7 +25,9 @@ const TestBar = () => {
       <h2 onClick={() => navigate("/tests/anxiety")}>
         {lenguage === "español" ? "ANSIEDAD" : "ANXIETY"}
       </h2>
-      <h2 onClick={() => navigate("/tests/depresion")}>DEPRESION</h2>
+      <h2 onClick={() => navigate("/tests/depresion")}>
+        {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}
+      </h2>
     </div>
   );
 };

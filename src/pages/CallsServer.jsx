@@ -116,7 +116,7 @@ const CallsServer = ({ name }) => {
 
                 <div className="call__server__actions__container">
                   <button onClick={mute}>
-                    {!muteMic ? <BsFillMicMuteFill /> : <BsMicFill />}
+                    {muteMic ? <BsFillMicMuteFill /> : <BsMicFill />}
                   </button>
                   <div style={{ width: "50px" }} />
                   <button onClick={endCall}>

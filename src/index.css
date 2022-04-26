@@ -319,6 +319,7 @@ ul {
 		left: 0;
 		opacity: 0.8;
 		background-color: rgb(37, 37, 37);
+		z-index: 15;
 	}
 
 	.side__bar__list,

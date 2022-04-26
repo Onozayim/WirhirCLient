@@ -95,23 +95,23 @@ const BipolarTest = () => {
           </h1>
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿SIENTES QUE TIENES UNANIMO INUSITADAMENTE ALTO?"
-              : "DO YOU FEEL THAT YOU HAVE UNUSITALLY HIGH UNANIME?"}
+              ? "¿HAY DIAS QUE TE SIENTES CON MUY POCO ANIMO?"
+              : "ARE THERE DAYS WHEN YOU FELL VERY LOW?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿TE HAS MOSTRADO IRRITABLE?"
-              : "HAVE YOU BEEN IRRITABLE?"}
+              ? "¿ES FACIL IRRITARTE?"
+              : "IT'S EASY TO YOU TO GET IRRITATED?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿MANIFIESTAS MAYOR CONFIANZA EN TI MISMO?"
-              : "DO YOU EXPRESS GREATER CONFIDENCE IN YOURSELF?"}
+              ? "¿LA CONFIANZA EN TI MISMO CAMBIA CON LOS DIAS?"
+              : "YOUR SELF-CONFIDENCE CAHNGES WITH THE DAYS?"}
           </Question>
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿SUELES ESTAR MAS LOCUAZ?"
-              : "DO YOU USUALLY TALK MORE THAN AVERAGE"}
+              ? "¿SUELES HABLAR MAS QUE LAS PERSONAS PROMEDIO?"
+              : "DO YOU USUALLY TALK MORE THAN AVERAGE PEOPLE"}
           </Question>
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"

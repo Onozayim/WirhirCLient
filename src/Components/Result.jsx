@@ -39,8 +39,6 @@ const Result = ({ title, message, score, maxScore }) => {
           </p>
         )}
 
-        <p>{(score * 100) / maxScore}</p>
-
         <p>{message}</p>
 
         <img

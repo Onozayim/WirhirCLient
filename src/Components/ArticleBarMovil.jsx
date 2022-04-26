@@ -15,7 +15,7 @@ const ArticleBarMovil = () => {
       {!articleSideBarMovil && (
         <div className="toggle__side__bar__movil">
           <p onClick={() => setArticleSideBarMovil(true)}>
-            {lenguage === "español" ? "Opciones" : "Options"}
+            {lenguage === "español" ? "Articulos" : "Articles"}
           </p>
         </div>
       )}
@@ -48,7 +48,9 @@ const ArticleBarMovil = () => {
                 ? "TRANSTORNO DE BIPOLARIDAD"
                 : "BIPOLAR DISORDER"}
             </h2>
-            <h2 onClick={() => navigate("/articles/depresion")}>DEPRESION</h2>
+            <h2 onClick={() => navigate("/articles/depresion")}>
+              {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}
+            </h2>
           </div>
         </React.Fragment>
       )}

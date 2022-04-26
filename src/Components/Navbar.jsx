@@ -54,7 +54,15 @@ const NavBar = (props) => {
           >
             options
           </li>
-          <li>WIRHIR</li>
+          <li
+            onClick={() => {
+              setShowLeftBar(!showLeftBar);
+              setShowRightBar(false);
+              navigate("/");
+            }}
+          >
+            WIRHIR
+          </li>
           <li
             onClick={() => {
               setShowRightBar(!showRightBar);
@@ -150,7 +158,11 @@ const NavBar = (props) => {
               </li>
             </ul>
 
-            <h3>CONOCETE MEJOR</h3>
+            <h3>
+              {lengauge.lenguage === "español"
+                ? "CONOCETE MEJOR"
+                : "KNOW YOU BETTER"}
+            </h3>
             <ul className="side__bar__list2">
               <li>
                 <a

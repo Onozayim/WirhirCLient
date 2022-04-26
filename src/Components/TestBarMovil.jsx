@@ -27,7 +27,7 @@ const TestBarMovil = () => {
       {!articleSideBarMovil && (
         <div className="toggle__side__bar__movil">
           <p onClick={() => setArticleSideBarMovil(true)}>
-            {lenguage === "español" ? "Opciones" : "Options"}
+            {lenguage === "español" ? "Tests" : "Tests"}
           </p>
         </div>
       )}
@@ -56,7 +56,9 @@ const TestBarMovil = () => {
             <h2 onClick={() => navigate("/tests/anxiety")}>
               {lenguage === "español" ? "ANXIETY" : "ANSIEDAD"}
             </h2>
-            <h2 onClick={() => navigate("/tests/depresion")}>DEPRESION</h2>
+            <h2 onClick={() => navigate("/tests/depresion")}>
+              {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}
+            </h2>
           </div>
         </React.Fragment>
       )}

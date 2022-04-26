@@ -120,7 +120,7 @@ const DepressionTest = () => {
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
               ? "¿ULTIMAMENTE HAS PERDIDO EL INTERES O PLACER EN TUS PASATIEMPOS O ACTIVIDADES?"
-              : ""}
+              : "HAVE YOU LATELY LOOSE INTEREST IN YOUR HOBBIES?"}
           </Question>
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"

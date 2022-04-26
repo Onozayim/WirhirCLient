@@ -23,7 +23,9 @@ const SideBar = () => {
       <h2 onClick={() => navigate("/articles/anxiety")}>
         {lenguage === "español" ? "ANSIEDAD" : "ANXIETY"}
       </h2>
-      <h2 onClick={() => navigate("/articles/depresion")}>DEPRESION</h2>
+      <h2 onClick={() => navigate("/articles/depresion")}>
+        {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}
+      </h2>
     </div>
   );
 };
