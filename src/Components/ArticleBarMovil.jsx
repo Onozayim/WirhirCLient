@@ -44,9 +44,7 @@ const ArticleBarMovil = () => {
                 : "BIPOLAR DISORDER"}
             </h2>
             <h2 onClick={() => navigate("/articles/anxiety")}>
-              {lenguage === "español"
-                ? "TRANSTORNO DE BIPOLARIDAD"
-                : "BIPOLAR DISORDER"}
+              {lenguage === "español" ? "ANSIEDAD" : "ANXIETY"}
             </h2>
             <h2 onClick={() => navigate("/articles/depresion")}>
               {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}

@@ -54,7 +54,7 @@ const TestBarMovil = () => {
                 : "BIPOLAR DISORDER"}
             </h2>
             <h2 onClick={() => navigate("/tests/anxiety")}>
-              {lenguage === "español" ? "ANXIETY" : "ANSIEDAD"}
+              {lenguage === "español" ? "ANSIEDAD" : "ANXIETY"}
             </h2>
             <h2 onClick={() => navigate("/tests/depresion")}>
               {lenguage === "español" ? "DEPRESION" : "DEPRESSION"}
