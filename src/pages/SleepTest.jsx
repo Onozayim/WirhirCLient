@@ -63,13 +63,13 @@ const SleepTest = () => {
       <Result
         title={
           lenguage === "español"
-            ? "RESULTADO DE TEST DE SINTOMAS SOBRE TRANSTORNO DE SUEÑO"
-            : "RESULT OF TEST OF SYMPTOMS ABOUT SLEEP DISORDER"
+            ? "Resultado de test de síntomas sobre trastorno de sueño"
+            : "Result of test of symptoms about sleep disorder"
         }
         message={
           lenguage === "español"
-            ? "ESTE TEST NO SIRVE PARA QUE TE AUTO RECETES, PORFAVOR RECUERDA QUE ESTOS RESULTADOS NO SON OFICIALES, SI CREES QUE NECESITAS AYUDA, VE A BUSCARLA SIN IMPORTAR EL RESULTADO DEL TEST"
-            : "THIS TEST IS NOT USED FOR YOU TO SELF-RECEIVE YOURSELF, PLEASE REMEMBER THAT THESE RESULTS ARE NOT OFFICIAL, IF YOU THINK YOU NEED HELP, GO AND SEEK IT REGARDLESS OF THE TEST RESULT"
+            ? "Este test no sirve para que te auto recetes, por favor recuerda que estos resultados no son oficiales, si crees que necesitas ayuda, ve a buscarla sin importar el resultado del test."
+            : "This test is not used for you to self-receive yourself, please remember that these results are not official, if you think you need help, go and seek it regardless of the test result."
         }
         score={score}
         maxScore={12}
@@ -92,38 +92,40 @@ const SleepTest = () => {
         <form onSubmit={submitHandler}>
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿TE ES IMPOSIBLE CONCILIAR EL SUEÑO?"
-              : "IS IT IMPOSSIBLE TO RECONCILE YOUR SLEEP?"}
+              ? "¿Te es imposible conciliar el sueño?"
+              : "Is it impossible to reconcile your sleep?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿SUELES DESPERTARTE TEMPRANO?"
-              : "DO YOU USE TO WAKE UP EARLY?"}
+              ? "¿Sueles despertarte temprano?"
+              : "Do you use to wake up early?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿SUELES TENER AGOTAMIENTO FISICO?"
-              : "DO YOU USUALLY HAVE PHYSICAL EXHAUSTION?"}
+              ? "¿Sueles tener agotamiento físico?"
+              : "Do you usually have physical exhaustion?"}
           </Question>
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿CONSIDERAS QUE TIENES BAJO RENDIMIENTO?"
-              : "DO YOU CONSIDER THAT YOU HAVE LOW PERFORMANCE?"}
+              ? "¿Consideras que tienes bajo rendimiento?"
+              : "Do you consider that you have low performance?"}
           </Question>
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
-              ? "¿SUELES TENER SUEÑO DIURNO?"
-              : "DO YOU USUALLY HAVE DAY SLEEP?"}
+              ? "¿Sueles tener sueño diurno?"
+              : "Do you usually have day sleep?"}
           </Question>
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"
-              ? "¿SUELES TENER DIFICULTAD CON LAS OBLIGACIONES PROFESIONALES, FAMILIARES O SOCIALES?"
-              : "DO YOU USE TO HAVE DIFFICULTY WITH PROFESSIONAL, FAMILY OR SOCIAL OBLIGATIONS?"}
+              ? "¿Sueles tener dificultad con las obligaciones profesionales, familiares o sociales?"
+              : "Do you use to have difficulty with professional, family or social obligations?"}
           </Question>
 
           <button type="submit">
             {lenguage === "español" ? "ENVIAR" : "SEND"}
           </button>
+
+          <br />
         </form>
       </div>
       <ErrorModal

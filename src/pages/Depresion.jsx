@@ -35,72 +35,81 @@ const ContenidoEnEspañol = () => {
       <h1>DEPRESION</h1>
 
       <p>
-        LA DEPRESION CLINICA ES UN TRANSTORNO DEL ESTADO ANIMOCO EN EL CUAL LOS
-        SENTIMIENTOS DE TRISTEZA, PERDIAD IRA O FRUSTACION INTERFIEREN CON LA
-        VIDA DIARA DURANTE UN PERIODO DE ALGUNAS SEMANAS O MAS. LA DEPRESION
-        PUEDE SUCEDER EN PERSONAS DE TODAS LAS EDADES
+        La depresión clínica es un trastorno del estado animoso en el cual los
+        sentimientos de tristeza, perdida ira o frustración interfieren con la
+        vida diaria durante un periodo de algunas semanas o más. La depresión
+        puede suceder en personas de todas las edades.
       </p>
 
       <br />
 
-      <p>LOS TIPOS PRINICPALES DE DEPRESION INCLUYEN</p>
+      <p>Los tipos principales de depresión incluyen:</p>
+
+      <br />
 
       <ul className="article__list">
         <li>
-          DEPRESION MAYOR: SUCEDE CUANDO LOS SENTIMIENTOS DE TRISTEZA, PERDIDA
-          IRA O FRUSTACION INTERFIEREN CON LA VIDA POR SEMANAS O PERIODOS MAS
-          LARGOS DE TIEMPO
+          Depresión mayor: sucede cuando los sentimientos de tristeza, perdida
+          ira o frustración interfieren con la vida por semanas o periodos mas
+          largos de tiempo.
         </li>
 
         <li>
-          TRANSTORNO DEPRESIVO PERSISTENTE: SE TRATA DE UN ESTADO DE ANIMO
-          DEPRESIVO QUE DURA 2 AÑOS. A LO LARGO DE ESE PERIODO DE TIEMPO, PUEDE
-          TENER MOMMENTS DE DEPRESION MAYOR JUNTO CON EPOCAS EN LAS QUE SINTOMAS
-          SON MENOS GRAVES
+          Trastorno depresivo persistente: se trata de un estado de animo
+          depresivo que dura 2 años. A lo largo de ese periodo de tiempo, puede
+          tener momentos de depresión mayor junto con épocas en las que síntomas
+          son menos graves.
         </li>
       </ul>
 
       <br />
 
-      <p>OTROS FORMAS COMUNES DE DEPRESION INCLUYE: </p>
+      <p>Otras formas comunes de depresión incluye: </p>
+
+      <br />
 
       <ul className="article__list">
         <li>
-          DEPRESION POSPARTO: MUCHAS MUJERES SE SIENTEN ALGO DEPRIMIDAS DESPUES
-          DE TENER UN BEBE, PER LA VERDAD DEPRESION POSPARTO ES MAS GRAVE E
-          INCLUYE LOS SINTOMAS DE LA DEPRESION MAYOR
+          Depresión posparto: muchas mujeres se sienten algo deprimidas después
+          de tener un bebe, pero la verdad depresión posparto es más grave e
+          incluye los síntomas de la depresión mayor.
         </li>
 
         <li>
-          TRANSTORNO DE DEPRESION PREMENSTRUAL (TDPM): SINTOMAS QUE OCURREN 1
-          SEMANA ANTES DE LA MENSTRUACION Y DESAPARECE DESPUES DE MENSTRUAR
+          Trastorno de depresión premenstrual (tdpm): síntomas que ocurren 1
+          semana antes de la menstruación y desaparece después de menstruar.
         </li>
 
         <li>
-          TRANSTORNO AFECTIVO ESTACIONAL (TAE), OCURRE CON MAYOR FRECUENCIA
-          DURANTE LAS ESTACIONES DE OTOÑO E INVIERNO, Y DESPARECE DURANTE LA
-          PRIMAVERA Y EL VREANO, MUYT PROBABLEMENTE DEBJIO A LA FALTA DE LUZ
-          SOLAR
+          Trastorno afectivo estacional (tae), ocurre con mayor frecuencia
+          durante las estaciones de otoño e invierno, y desparece durante la
+          primavera y el verano, muy probablemente debido a la falta de luz
+          solar.
         </li>
 
         <li>
-          DEPRESION MAYOR CON CARACTERISTICAS PSICOTICAS: SUCEDE CUANDO UNA
-          PERSONA PADECE DEPRESION CON UN AFALTA DE CONTACTO CON LA REALIDAD
-          (PSICOSIS)
+          Depresión mayor con características psicóticas: sucede cuando una
+          persona padece depresión con una falta de contacto con la realidad
+          (psicosis).
         </li>
-
-        <br />
-
-        <p> PUEDES VER MAS EN:</p>
-
-        <a href="https://medlineplus.gov/spanish/ency/article/003213.htm">
-          https://medlineplus.gov/spanish/ency/article/003213.htm
-        </a>
-        <br />
-        <a href="https://www.mayoclinic.org/es-es/diseases-conditions/depression/symptoms-causes/syc-20356007">
-          https://www.mayoclinic.org/es-es/diseases-conditions/depression/symptoms-causes/syc-20356007
-        </a>
       </ul>
+
+      <br />
+
+      <p>Mas información en:</p>
+
+      <br />
+
+      <a href="https://medlineplus.gov/spanish/ency/article/003213.htm">
+        https://medlineplus.gov/spanish/ency/article/003213.htm
+      </a>
+      <br />
+      <a href="https://www.mayoclinic.org/es-es/diseases-conditions/depression/symptoms-causes/syc-20356007">
+        https://www.mayoclinic.org/es-es/diseases-conditions/depression/symptoms-causes/syc-20356007
+      </a>
+
+      <br />
+      <br />
     </div>
   );
 };
@@ -111,69 +120,72 @@ const ContentInEnglish = () => {
       <h1>DEPRESSION</h1>
 
       <p>
-        CLINICAL DEPRESSION IS A MOOD DISORDER IN WHICH FEELINGS OF SADNESS,
-        LOST ANGER OR FRUSTATION INTERFERE WITH THE LIFE FOR A PERIOD OF A FEW
-        WEEKS OR MORE. THE DEPRESSION IT CAN HAPPEN IN PEOPLE OF ALL AGES
+        Clinical depression is a mood disorder in which feelings of sadness,
+        lost anger or frustration interfere with the life for a period of a few
+        weeks or more. The depression, it can happen in people of all ages.
       </p>
 
-      <br />
-
-      <p>THE MAIN TYPES OF DEPRESSION INCLUDE:</p>
+      <p>The main types of depression include:</p>
 
       <ul className="article__list">
         <li>
-          MAJOR DEPRESSION: IT HAPPENS WHEN FEELINGS OF SADNESS, LOSS ANGER OR
-          FRUSTATION INTERFERE WITH LIFE FOR MORE WEEKS OR PERIODS LONG TIME
+          Major depression: it happens when feelings of sadness, loss anger or
+          frustration interfere with life for more weeks or periods long time.
         </li>
 
         <li>
-          PERSISTENT DEPRESSIVE DISORDER: IT IS A MOOD DEPRESSIVE THAT LASTS 2
-          YEARS. THROUGHOUT THAT PERIOD OF TIME, YOU CAN HAVING MOMMENTS OF
-          MAJOR DEPRESSION TOGETHER WITH TIMES WHEN YOU HAVE SYMPTOMS THAT ARE
-          LESS SERIOUS
+          Persistent depressive disorder: it is a mood depressive that lasts 2
+          years. Throughout that period of time, you can have moments of major
+          depression together with times when you have symptoms that are less
+          serious.
         </li>
       </ul>
 
       <br />
 
-      <p>OTHER COMMON FORMS OF DEPRESSION INCLUDE: </p>
+      <p>Other common forms of depression include: </p>
 
       <ul className="article__list">
         <li>
-          POSTPARTUM DEPRESSION: MANY WOMEN FEEL SOME DEPRESSED AFTER HAVING A
-          BABY, BUT THE TRUE POSTPARTUM DEPRESSION IS MORE SERIOUS AND INCLUDES
-          THE SYMPTOMS OF MAJOR DEPRESSION
+          Postpartum depression: many women feel some depressed after having a
+          baby, but the true postpartum depression is more serious and includes
+          the symptoms of major depression.
         </li>
 
         <li>
-          PREMENSTRUAL DEPRESSION DISORDER: SYMPTOMS THAT OCCUR 1 WEEK BEFORE
-          MENSTRUATION AND DISAPPEARS AFTER MENSTRUATION
+          Premenstrual depression disorder: symptoms that occur 1 week before
+          menstruation and disappears after menstruation.
         </li>
 
         <li>
-          SEASONAL AFFECTIVE DISORDER: OCCURS MORE FREQUENTLY DURING THE AUTUMN
-          AND WINTER SEASONS, AND DISAPPEARS DURING THE SPRING AND VREAN, VERY
-          LIKELY DUE TO LACK OF LIGHT SOLAR
+          Seasonal affective disorder: occurs more frequently during the autumn
+          and winter seasons, and disappears during the spring and summer, very
+          likely due to lack of light solar.
         </li>
 
         <li>
-          MAJOR DEPRESSION WITH PSYCHOTIC CHARACTERISTICS: IT HAPPENS WHEN A
-          PERSON SUFFERS FROM DEPRESSION WITH A LACK OF CONTACT WITH REALITY
-          (PSYCHOSIS)
+          Major depression with psychotic characteristics: it happens when a
+          person suffers from depression with a lack of contact with reality
+          (psychosis).
         </li>
-
-        <br />
-
-        <p>YOU CAN SEE MORE IN:</p>
-
-        <a href="https://www.psychiatry.org/patients-families/depression/what-is-depression">
-          https://www.psychiatry.org/patients-families/depression/what-is-depression
-        </a>
-        <br />
-        <a href="https://www.nimh.nih.gov/health/topics/depression">
-          https://www.nimh.nih.gov/health/topics/depression
-        </a>
       </ul>
+
+      <br />
+
+      <p>You can see more in:</p>
+
+      <br />
+
+      <a href="https://www.psychiatry.org/patients-families/depression/what-is-depression">
+        https://www.psychiatry.org/patients-families/depression/what-is-depression
+      </a>
+      <br />
+      <a href="https://www.nimh.nih.gov/health/topics/depression">
+        https://www.nimh.nih.gov/health/topics/depression
+      </a>
+
+      <br />
+      <br />
     </div>
   );
 };

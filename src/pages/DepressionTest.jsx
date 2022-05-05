@@ -75,8 +75,8 @@ const DepressionTest = () => {
         }
         message={
           lenguage === "español"
-            ? "ESTE TEST NO SIRVE PARA QUE TE AUTO RECETES, PORFAVOR RECUERDA QUE ESTOS RESULTADOS NO SON OFICIALES, SI CREES QUE NECESITAS AYUDA, VE A BUSCARLA SIN IMPORTAR EL RESULTADO DEL TEST"
-            : "THIS TEST IS NOT USED FOR YOU TO SELF-RECEIVE YOURSELF, PLEASE REMEMBER THAT THESE RESULTS ARE NOT OFFICIAL, IF YOU THINK YOU NEED HELP, GO AND SEEK IT REGARDLESS OF THE TEST RESULT"
+            ? "Este test no sirve para que te auto recetes, por favor recuerda que estos resultados no son oficiales, si crees que necesitas ayuda, ve a buscarla sin importar el resultado del test."
+            : "This test is not used for you to self-receive yourself, please remember that these results are not official, if you think you need help, go and seek it regardless of the test result."
         }
         score={score}
         maxScore={18}
@@ -86,7 +86,7 @@ const DepressionTest = () => {
   return (
     <div>
       <NavBar />
-      E
+
       <TestBar />
       <TestBarMovil />
       <div className="main__container">
@@ -99,53 +99,55 @@ const DepressionTest = () => {
 
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENTIMIENTOS PERSITENTES DE TRISTEZA, ANSIEDAD O VACIO?"
-              : "DO YOU USE TO HAVE PERSITENT FEELINGS OF SADNESS, ANXIETY, OR EMPTINESS?"}
+              ? "¿Sueles tener sentimientos persistentes de tristeza, ansiedad o vacío?"
+              : "Do you use to have persistent feelings of sadness, anxiety, or emptiness?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENTIMIENTOS DE DESESPERANZA O PESIMISMO?"
-              : "DO YOU USE TO HAVE FEELINGS OF DESPERANCY OR PASSIMISM?"}
+              ? "¿Sueles tener sentimientos de desesperanza o pesimismo?"
+              : "Do you use to have feelings of desperate or pessimism?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENTIMIENTOS DE IRRITABILIDAD, FRUSTRACION O INTRAQUILIDAD?"
-              : "DO YOU USUALLY HAVE FEELINGS OF IRRITABILITY, FRUSTRATION OR INTRAQUILITY?"}
+              ? "¿Sueles tener sentimientos de irritabilidad, frustración o intranquilidad?"
+              : "Do you usually have feelings of irritability, frustration or intranquility?"}
           </Question>
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENTIMIENTOS DE CULPABILIDAD, INUTILIDAD O IMPOTENCIA?"
-              : "DO YOU USUALLY HAVE FEELINGS OF GUILT, WORTHLESSNESS, or HELPLESSNESS?"}
+              ? "¿Sueles tener sentimientos de culpabilidad, inutilidad o impotencia?"
+              : "Do you usually have feelings of guilt, worthlessness, or helplessness?"}
           </Question>
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS PERDIDO EL INTERES O PLACER EN TUS PASATIEMPOS O ACTIVIDADES?"
-              : "HAVE YOU LATELY LOOSE INTEREST IN YOUR HOBBIES?"}
+              ? "¿Últimamente has perdido el interés o placer en tus pasatiempos o actividades?"
+              : "Have you lately lose interest in your hobbies?"}
           </Question>
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS TENIDO FATIGA, DISNIMUCION DE ENERGIA O SENSACION DE QUE VAS MAS LENTO?"
-              : "HAVE YOU LATELY LOST INTEREST OR PLEASURE IN YOUR HOBBIES OR ACTIVITIES?"}
+              ? "¿Últimamente has tenido fatiga, disminución de energía o sensación de que vas mas lento?"
+              : "Have you lately lost interest or pleasure in your hobbies or activities? "}
           </Question>
           <Question setQuestion={setAnswer7}>
             {lenguage === "español"
-              ? "¿TIENES DIFICULTAD PARA CONCENTRARSE, RECORDAR O TOMAR DECISIONES?"
-              : "DO YOU HAVE DIFFICULTY TO FOCUS, REMEMBER OR MAKE DECISIONS?"}
+              ? "¿Tienes dificultad para concentrarse, recordar o tomar decisiones?"
+              : "Do you have difficulty to focus, remember or make decisions?"}
           </Question>
           <Question setQuestion={setAnswer8}>
             {lenguage === "español"
-              ? "¿TIENES DIFICULTASD PARA DORMIR, TE DESPIERTAS MUY TEMPRANO O DUERMES DEMASIADO?"
-              : "DO YOU HAVE DIFFICULTIES SLEEPING, DO YOU WAKE UP TOO EARLY OR DO YOU SLEEP TOO LONG?"}
+              ? "¿Tienes dificultad para dormir, te despiertas muy temprano o duermes demasiado?"
+              : "Do you have difficulties sleeping, do you wake up too early, or do you sleep too long?"}
           </Question>
           <Question setQuestion={setAnswer9}>
             {lenguage === "español"
-              ? "¿HAS SENTIDO CAMBIOS EN EL APETITO?"
-              : "HAVE YOU FEELED CHANGES IN THE APPETITE?"}
+              ? "¿Has sentido cambios en el apetito?"
+              : "Have you felt changes in the appetite?"}
           </Question>
 
           <button type="submit">
             {lenguage === "español" ? "ENVIAR" : "SEND"}
           </button>
+
+          <br />
         </form>
       </div>
       <ErrorModal

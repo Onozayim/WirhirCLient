@@ -34,52 +34,52 @@ const ContenidoEnEspañol = () => {
       <h1>ANSIEDAD</h1>
 
       <p>
-        LA ANSIEDAD ES UN SENTIMIENTO DE MIEDO, TEMOR E INQUIETUD. MPUEDE HACER
-        QUE SUDES, TE SIENTAS INQUIETO, Y TENSO. PUYEDES SENTIRTE ANSIOSO CUANDO
-        SE ENFRETA A UN PROBLEMA DIFICIL EN EL TRABAJO, ANTES DE TOMAR UN EXAMEN
-        O ANTESDE TOMAR UNA DECISIN IMPORTANTE. LAS PERSONAS CON TRANSTORNOS DE
-        ANSIEDAD. EL MIEDO NO ES TEMPORAL Y PUEDE SER ABRUMADORA
+        La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer
+        que sudes, te sientas inquieto, y tenso. Puedes sentirte ansioso cuando
+        se enfrenta a un problema difícil en el trabajo, antes de tomar un
+        examen o antes de tomar una decisión importante. Las personas con
+        trastornos de ansiedad. El miedo no es temporal y puede ser abrumadora.
       </p>
 
       <br />
 
       <p>
-        LOS TRANSTORNOS DE ANSIEDAD SON AFECCIONES EN LAS QUE LA ANSIEDAD NO
-        DESAPARECE Y PUEDE EMPEORAR CON EL TIEMPO. LOS SINTOMAS PUEDEN
-        INTERFERIR CON LAS ACTIVIDADES DIARIAS, COMO EL DESEMPEÑO EN EL TRABAJO,
-        LA ESCUELA Y LAS RELACIONES ENTRE PERSONAS{" "}
+        Los trastornos de ansiedad son afecciones en las que la ansiedad no
+        desaparece y puede empeorar con el tiempo. Los síntomas pueden
+        interferir con las actividades diarias, como el desempeño en el trabajo,
+        la escuela y las relaciones entre personas.
       </p>
 
       <br />
 
-      <p>HAY MUCHOS TIPOS DE TRANSTORNOS DE ANSIEDAD, POR EJEMPLO:</p>
+      <p>Hay muchos tipos de trastornos de ansiedad, por ejemplo:</p>
 
       <ul className="article__list">
         <li>
-          TRANSTORNO DE ANSIEDAD GENERALIZADA: LAS PERSONAS CON ESTE TRASNTORNO
-          SE PREOCUPAN POR PROBLEMAS COMUNES COMO LAS SALUD, EL DINERO, LE
-          TRABAJO Y LA FAMILIA. PERO SUS PREOCUPACIONES SON EXCESIVAS Y LAS
-          TIENEN CASI TODOS LOS DIAS DURANTE AL MENOS 6 MESES
+          Trastorno de ansiedad generalizada: las personas con este trastorno se
+          preocupan por problemas comunes como la salud, el dinero, le trabajo y
+          la familia. Pero sus preocupaciones son excesivas y las tienen casi
+          todos los días durante al menos 6 meses.
         </li>
 
         <li>
-          TRANSTORNO DE PANICO: LAS PERSONAS CON TRANSTORNO DE PANICO SUFREN DE
-          ATAQUES DE PANICO. ESTOS SON REPENTINOS Y REPETIDOS EN MOMENTOS DE
-          MIEDO INTENSO SIN HABER UN PELIGRO APARENTE. LOS ATAQUES SE PRODUCEN
-          RAPIDAMENTE Y PUEDEN DURAR VARIOS MINUTOS O MAS
+          Trastorno de pánico: las personas con trastorno de pánico sufren de
+          ataques de pánico. Estos son repentinos y repetidos en momentos de
+          miedo intenso sin haber un peligro aparente. Los ataques se producen
+          rápidamente y pueden durar varios minutos o mas.
         </li>
 
         <li>
-          FOBIAS: LAS PERSONAS TIENEN UN MIEDO INTENSO A ALGO QUE PRESENTA POCO
-          O NINGUN PELIGRO REAL, EL MIEDO PUEDE SER POR ARAÑAS, VOLAR IR A
-          LUGARES CONCURRIDOS O ESTAR EN SITUACIONS SOCIALES (CONOCIDO COMO
-          ANSIEDAD SOCIAL)
+          Fobias: las personas tienen un miedo intenso a algo que presenta poco
+          o ningún peligro real, el miedo puede ser por arañas, volar ir a
+          lugares concurridos o estar en situaciones sociales (conocido como
+          ansiedad social).
         </li>
       </ul>
 
       <br />
 
-      <p>MAS INFORMACION EN:</p>
+      <p>Mas información en:</p>
 
       <a href="https://medlineplus.gov/spanish/anxiety.html">
         https://medlineplus.gov/spanish/anxiety.html
@@ -88,6 +88,9 @@ const ContenidoEnEspañol = () => {
       <a href="https://www.mayoclinic.org/es-es/diseases-conditions/anxiety/symptoms-causes/syc-20350961">
         https://www.mayoclinic.org/es-es/diseases-conditions/anxiety/symptoms-causes/syc-20350961
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };
@@ -98,51 +101,54 @@ const ContentInEnglish = () => {
       <h1>ANXIETY</h1>
 
       <p>
-        ANXIETY IS A FEELING OF FEAR AND CONCERN. IT MAKES YOU SWEAT, YOU FEEL
-        RESTLESS, AND TIGHT. CAN YOU FEEL ANXIOUS WHEN FACING A DIFFICULT
-        PROBLEM AT WORK, BEFORE TAKING AN EXAM OR BEFORE MAKING AN IMPORTANT
-        DECISION. PEOPLE WITH DISORDERS OF ANXIETY. FEAR IS NOT TEMPORARY AND
-        CAN BE OVERWHELMING
+        Anxiety is a feeling of fear and concern. It makes you sweat, you feel
+        restless, and tight. Can you feel anxious when facing a difficult
+        problem at work, before taking an exam or before making an important
+        decision. People with disorders of anxiety. Fear is not temporary and
+        can be overwhelming.
       </p>
 
       <br />
 
       <p>
-        ANXIETY DISORDERS ARE CONDITIONS IN WHICH ANXIETY DOES NOT DISAPPEARS
-        AND MAY GET WORSE OVER TIME. SYMPTOMS MAY INTERFERE WITH DAILY
-        ACTIVITIES, SUCH AS WORK PERFORMANCE, THE SCHOOL AND RELATIONSHIPS
-        BETWEEN PEOPLE
+        Anxiety disorders are conditions in which anxiety does not disappear and
+        may get worse over time. Symptoms may interfere with daily activities,
+        such as work performance, the school and relationships between people.
       </p>
 
       <br />
 
-      <p>THERE ARE MANY TYPES OF ANXIETY DISORDERS, FOR EXAMPLE:</p>
+      <p>There are many types of anxiety disorders, for example:</p>
+
+      <br />
 
       <ul className="article__list">
         <li>
-          GENERALIZED ANXIETY DISORDER: PEOPLE WITH THIS DISORDER WORRY ABOUT
-          COMMON PROBLEMS SUCH AS HEALTH, MONEY, YOU WORK AND FAMILY. BUT YOUR
-          CONCERNS ARE EXCESSIVE AND THE THEY HAVE ALMOST EVERY DAY FOR AT LEAST
-          6 MONTHS
+          Generalized anxiety disorder: people with this disorder worry about
+          common problems such as health, money, your work and family. But you
+          concerns are excessive, and they have almost every day for at least 6
+          months.
         </li>
 
         <li>
-          PANIC DISORDER: PEOPLE WITH PANIC DISORDER SUFFER FROM PANIC ATTACKS.
-          THESE ARE SUDDENLY AND REPEATED IN MOMENTS OF INTENSE FEAR WITHOUT AN
-          APPARENT DANGER. ATTACKS OCCUR QUICKLY AND MAY LAST SEVERAL MINUTES OR
-          MORE
+          Panic disorder: people with panic disorder suffer from panic attacks.
+          These are suddenly and repeated in moments of intense fear without an
+          apparent danger. Attacks occur quickly and may last several minutes or
+          more.
         </li>
 
         <li>
-          PHOBIAS: PEOPLE HAVE AN INTENSE FEAR OF SOMETHING THAT PRESENTS LITTLE
-          OR NO REAL DANGER, FEAR MAY BE FROM SPIDERS, FLY, GO TO CONCURRED
-          PLACES OR BEING IN SOCIAL SITUATIONS (KNOWN AS SOCIAL ANXIETY)
+          Phobias: people have an intense fear of something that presents little
+          or no real danger, fear may be from spiders, fly, go to concurred
+          places or being in social situations (known as social anxiety).
         </li>
       </ul>
 
       <br />
 
-      <p>MORE INFORMATION IN:</p>
+      <p>More information in:</p>
+
+      <br />
 
       <a href="https://my.clevelandclinic.org/health/diseases/9536-anxiety-disorders">
         https://my.clevelandclinic.org/health/diseases/9536-anxiety-disorders
@@ -151,6 +157,9 @@ const ContentInEnglish = () => {
       <a href="https://www.nimh.nih.gov/health/topics/anxiety-disorders">
         https://www.mayoclinic.org/es-es/diseases-conditions/anxiety/symptoms-causes/syc-20350961
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };

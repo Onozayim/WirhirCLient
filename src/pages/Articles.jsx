@@ -35,30 +35,30 @@ const ContenidoEnEspañol = () => {
     <div className="main__container">
       <h1>ARTICULOS</h1>
       <p>
-        ULTIMAMENTE HAN SIDO AÑOS DIFICILES PARA MUCHAS PERSONAS, CON LA
-        PANDEMIA SE HA VISTO UN INCREMENTE EN LOS CASOS DE DIFERENTES
-        ENFERMEDADES MENTALES, LOS CASOS DE DEPRESION GRAVE Y ANSIEDAD
-        AUMENTARON EN UN 28 Y UN 26 %
+        Últimamente han sido años difíciles para muchas personas, con la
+        pandemia se ha visto un incremente en los casos de diferentes
+        enfermedades mentales, los casos de depresión grave y ansiedad
+        aumentaron en un 28 y un 26 %.
       </p>
 
       <p>
-        AQUÍ ENCONTRARAS INFORMACION BASICA SOBRE DIFERENTES ENFERMEDADES
-        MENTALES, ASÍ COMO LINKS DE ARTICULOS MAS COMPLETOS PARA QUE PUEDAS
-        SEGUIR LEYENDO
+        Aquí encontraras información básica sobre diferentes enfermedades
+        mentales, así como links de artículos más completos para que puedas
+        seguir leyendo.
       </p>
 
       <p>
-        SI LEYENDO SOBRE LAS DIFERENTES ENFERMEDADES MENTALES ENCUNTRAS ALGUNAS
-        SIMILITUDES CON EL COMO TE SIENTES, CONSIDERA EL IR CON UN EXPERTO COMO
-        UN PSICOLOGO, NO TIENE NADA DE MALO EL PEDIR AYUDA. Y ELLOS TE DARAN
-        TODA LA AYUDA QUE NECESITAS
+        Sí leyendo sobre las diferentes enfermedades mentales encuentras algunas
+        similitudes con el cómo te sientes, considera el ir con un experto como
+        un psicólogo, no tiene nada de malo el pedir ayuda. y ellos te darán
+        toda la ayuda que necesitas.
       </p>
 
       <p>
-        Y PORFAVOR RECUERDA QUE EN ESTE SITIO NO SE ENCUENTRA LA VERDAD
-        ABSOLUTA, LA INTENCION DE ESTE SITIO NO ES EL DE DARTE UN PRONOSTICO
-        EXACTO, SINO EL DE BRINDARTE ALGO DE AYUDA PARA QUE TE PUEDAS CONOCER
-        MEJOR, O SENTIRTE MEJOR
+        Y por favor recuerda que en este sitio no se encuentra la verdad
+        absoluta, la intención de este sitio no es el de darte un pronostico
+        exacto, sino el de brindarte algo de ayuda para que te puedas conocer
+        mejor, o sentirte mejor.
       </p>
     </div>
   );
@@ -69,27 +69,27 @@ const ContentInEnglish = () => {
     <div className="main__container">
       <h1>ARTICLES</h1>
       <p>
-        LATEST YEARS HAVE BEEN DIFFICULT FOR MANY PEOPLE, WITH THE PANDEMIC HAS
-        BEEN SEEN AN INCREASE IN CASES OF DIFFERENT MENTAL ILLNESSES, CASES OF
-        SERIOUS DEPRESSION AND ANXIETY INCREASED BY 28 AND 26%
+        Latest years have been difficult for many people, with the pandemic has
+        been seen an increase in cases of different mental illnesses, cases of
+        serious depression and anxiety increased by 28 and 26%.
       </p>
 
       <p>
-        HERE YOU WILL FIND BASIC INFORMATION ON DIFFERENT MENTAL ILLNESSES, AS
-        WELL AS LINKS TO MORE COMPLETE ARTICLES SO YOU CAN KEEP READING
+        Here you will find basic information on different mental illnesses, as
+        well as links to more complete articles, so you can keep reading.
       </p>
 
       <p>
-        IF READING ABOUT THE DIFFERENT MENTAL ILLNESSES, YOU FIND SOME
-        SIMILARITIES WITH HOW YOU FEEL, CONSIDER GOING WITH AN EXPERT LIKE A
-        PSYCHOLOGIST, THERE IS NOTHING BAD ASKING FOR HELP. AND THEY WILL GIVE
-        YOU ALL THE HELP YOU NEED
+        If reading about the different mental illnesses, you find some
+        similarities with how you feel, consider going with an expert like a
+        psychologist, there is nothing bad asking for help. And they will give
+        you all the help you need.
       </p>
 
       <p>
-        AND PLEASE REMEMBER THAT THE ABSOULTE TRUTH IS NOT FOUND ON THIS SITE,
-        THE INTENTION OF THIS SITE IS NOT TO GIVE YOU AN EXACT FORECAST, BUT OF
-        GIVING YOU SOME HELP SO YOU CAN KNOW YOURSELF BETTER, OR FEEL BETTER
+        And please remember that the absolute truth is not found on this site,
+        the intention of this site is not to give you an exact forecast, but of
+        giving you some help, so you can know yourself better, or feel better.
       </p>
     </div>
   );

@@ -289,7 +289,11 @@ const ChatPage = () => {
           </div>
         </div>
       ) : (
-        <h1>NO HAY CHATS DISPONILBES</h1>
+        <h1>
+          {lenguage === "español"
+            ? "NO HAY CHATS DISPONIBLES, SI QUIERES CHATERAR TENDRÁS QUE HACER AMIGOS EN ESTE SITIO WEB PRIMERO"
+            : "NO CHATS AVAILABLE, IF YOU WANT TO CHAT YOU WILL HAVE TO MAKE FRIENDS ON THIS WEBSITE FIRST"}
+        </h1>
       )}
     </React.Fragment>
   );

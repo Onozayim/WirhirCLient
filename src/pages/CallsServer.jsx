@@ -171,22 +171,24 @@ const CallsServer = ({ name }) => {
         close={handleOpenModal}
         action={sendFriendRequest}
         title={
-          lenguage.lenguage === "español"
+          lenguage === "español"
             ? "MANDAR SOLICITUD DE AMISTAD"
             : "SEND FRIEND REQUEST"
         }
         message={
-          lenguage.lenguage === "español"
+          lenguage === "español"
             ? `¿LE QUIERES MANDAR UNA SOLICITUD DE AMISTAD A ${socketContext.partner.name}?`
             : `DOU YOU WANT TO SEND A FRIEND REQUEST TO ${socketContext.partner.name}?`
         }
       />
 
-      <button onClick={handleOpenModal} className="leave__server__button">
-        {lenguage === "español"
-          ? "MANDAR SOLICITD DE AMISTAD"
-          : "SEND FRIEND REQUEST"}
-      </button>
+      {socketContext.partner.partnerSocketID && (
+        <button onClick={handleOpenModal} className="leave__server__button">
+          {lenguage === "español"
+            ? "MANDAR SOLICITD DE AMISTAD"
+            : "SEND FRIEND REQUEST"}
+        </button>
+      )}
 
       <button onClick={leaveServer} className="leave__server__button">
         {lenguage === "español" ? "SALIR" : "EXIT"}

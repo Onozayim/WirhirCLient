@@ -37,40 +37,42 @@ const ContenidoEnEspañol = () => {
       <h1>TRANSTORNO DE BIPOLARIDAD</h1>
 
       <p>
-        EL TRANSTORNO BIPOLAR ANTES DENOMINADO DEPRESIÓN MANIACA, ES UNA
-        ENFERMEDAD MENTAL QUE CAUSA CAMBIOS EXTREMOS EN EL ESTADO ANIMICO QUE
-        COMPRENDEN ELTOS EMOCIONALES Y BAJOS EMOCIONALES
+        El trastorno bipolar antes denominado depresión maniaca, es una
+        enfermedad mental que causa cambios extremos en el estado anímico que
+        comprenden altos emocionales y bajos emocionales.
       </p>
 
       <br />
 
       <p>
-        LOS EPISODIOS DE CAMBIO EN EL ESTADO DE ANIMO PUEDEN OCURRIR EN RARAS
-        OCASIONES O MUCHAS VECES POR AÑO. AUNQUE LA MAYORIA DE LASPERSONAS
-        PRESENTEN SINTOMAS EMOCIONALERES ENTRE LOS EPISODIOS, ES POSIBLE QUE
-        ALGUNAS NO PRESENTEN NINGUNO
+        Los episodios de cambio en el estado de ánimo pueden ocurrir en raras
+        ocasiones o muchas veces por año. Aunque la mayoría de las personas
+        presenten síntomas emocionales entre los episodios, es posible que
+        algunas no presenten ninguno.
       </p>
 
       <br />
 
       <p>
-        AUNQUE EL TRANSTORNO BIPOLAR ES UN AFECCION DE POR VIDA, PUEDES
-        CONTROLAR LOS CAMBIOS EN EL ESTADO DE ANIMO Y OTROS SINTOMAS SIGUIENDO
-        UN PLAN DE TRATAMIENTO. LA MAYORIA DE LOS CASOS SE TRATAN CON
-        MEDICAMENTEOS Y APOYO PSICOLOGICO
+        Aunque el trastorno bipolar es una afección de por vida, puedes
+        controlar los cambios en el estado de ánimo y otros síntomas siguiendo
+        un plan de tratamiento. La mayoría de los casos se tratan con
+        medicamentos y apoyo psicológico.
       </p>
 
       <br />
 
       <p>
-        NO SE CONOCEN LA CUASA EXACTA DEL TRANSTORNO BIPOLAR. ES PROBABLE QUE
-        VARIOS FACTORES INFLUYAN EN ESTA AFECCIÓN INCLUYENDO LA GENETICA, LA
-        ESTRUCTURA Y FUNCION DEL CEREBRO Y SU AMBIENTE
+        No se conocen la causa exacta del trastorno bipolar. Es probable que
+        varios factores influyan en esta afección incluyendo la genética, la
+        estructura y función del cerebro y su ambiente.
       </p>
 
       <br />
 
-      <p>MAS INFORMACION EN: </p>
+      <p>Mas información en: </p>
+
+      <br />
 
       <a href="https://medlineplus.gov/spanish/bipolardisorder.html">
         https://medlineplus.gov/spanish/bipolardisorder.html
@@ -81,6 +83,9 @@ const ContenidoEnEspañol = () => {
       <a href="https://www.mayoclinic.org/es-es/diseases-conditions/bipolar-disorder/symptoms-causes/syc-20355955">
         https://www.mayoclinic.org/es-es/diseases-conditions/bipolar-disorder/symptoms-causes/syc-20355955
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };
@@ -91,38 +96,40 @@ const ContentInEnglish = () => {
       <h1>BIPOLAR DISORDER</h1>
 
       <p>
-        THE BIPOLAR DISORDER FORMERLY CALLED MANIC DEPRESSION, IS A MENTAL
-        ILLNESS THAT CAUSES EXTREME CHANGES IN THE MOOD THAT INCLUDE EMOTIONAL
-        HIGHS AND EMOTIONAL LOWS
+        The bipolar disorder, formerly called manic depression, is a mental
+        illness that causes extreme changes in the mood that include emotional
+        highs and emotional lows.
       </p>
 
       <br />
 
       <p>
-        EPISODES OF CHANGE IN MOOD MAY OCCUR IN RARE OCCASIONS OR MANY TIMES PER
-        YEAR. ALTHOUGH MOST PEOPLE PRESENT EMOTIONAL SYMPTOMS BETWEEN THE
-        EPISODES, IT IS POSSIBLE THAT SOME DO NOT PRESENT ANY
+        Episodes of change in mood may occur in rare occasions or many times per
+        year. Although most people present emotional symptoms between the
+        episodes, it is possible that some do not present any.
       </p>
 
       <br />
 
       <p>
-        ALTHOUGH BIPOLAR DISORDER IS A LIFETIME CONDITION, YOU CAN MONITOR
-        CHANGES IN MOOD AND OTHER SYMPTOMS BY FOLLOWING A TREATMENT PLAN. MOST
-        CASES ARE TREATED WITH MEDICATIONS AND PSYCHOLOGICAL SUPPORT
+        Although bipolar disorder is a lifetime condition, you can monitor
+        changes in mood and other symptoms by following a treatment plan. Most
+        cases are treated with medications and psychological support.
       </p>
 
       <br />
 
       <p>
-        ALTHOUGH THE BIPOLAR DISORDER IS A LIFETIME CONDITION, YOU CAN MONITOR
-        CHANGES IN MOOD AND OTHER SYMPTOMS BY FOLLOWING A TREATMENT PLAN. MOST
-        CASES ARE TREATED WITH MEDICATION AND PSYCHOLOGICAL SUPPORT
+        Although the bipolar disorder is a lifetime condition, you can monitor
+        changes in mood and other symptoms by following a treatment plan. Most
+        cases are treated with medication and psychological support.
       </p>
 
       <br />
 
-      <p>MORE INFORMATION IN: </p>
+      <p>More information in: </p>
+
+      <br />
 
       <a href="https://www.nimh.nih.gov/health/topics/bipolar-disorder">
         https://www.nimh.nih.gov/health/topics/bipolar-disorder
@@ -133,6 +140,9 @@ const ContentInEnglish = () => {
       <a href="https://www.healthline.com/health/bipolar-disorder">
         https://www.healthline.com/health/bipolar-disorder
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };

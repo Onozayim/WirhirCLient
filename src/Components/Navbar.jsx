@@ -19,7 +19,20 @@ const NavBar = (props) => {
         <ul className="navbar__bar">
           <li className="nav__item">
             <div className="icon__button">
-              <a href="/">
+              <a
+                href="/"
+                onClick={() => {
+                  if (
+                    window.location.href ===
+                    "https://wirhir.netlify.app/llamadas/server"
+                  ) {
+                    navigate("/");
+                    window.location.reload();
+                  } else {
+                    navigate("/");
+                  }
+                }}
+              >
                 {lengauge.lenguage === "español" ? "INICIO" : "HOME"}
               </a>
             </div>
@@ -52,13 +65,21 @@ const NavBar = (props) => {
               setShowRightBar(false);
             }}
           >
-            {lenguage.lenguage === "esañol" ? "Opciones" : "Options"}
+            {lengauge.lenguage === "esañol" ? "Opciones" : "Options"}
           </li>
           <li
             onClick={() => {
               setShowLeftBar(!showLeftBar);
               setShowRightBar(false);
-              navigate("/");
+              if (
+                window.location.href ===
+                "https://wirhir.netlify.app/llamadas/server"
+              ) {
+                navigate("/");
+                window.location.reload();
+              } else {
+                navigate("/");
+              }
             }}
           >
             WIRHIR

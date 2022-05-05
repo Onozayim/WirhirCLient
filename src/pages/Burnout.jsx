@@ -36,35 +36,41 @@ const ContentInEnglish = () => {
       <h1>BURNOUT</h1>
 
       <p>
-        THE TERM BURNOUT REFERS TO WORK STRESS. THIS IS MANIFEST THROUGH A STATE
-        OF PHYSICAL AND MENTAL EXHAUST, IT COMES TO ALTER THE PERSONALITY AND
-        SELF-ESTEEM OF THE WORKER
+        The term burnout refers to work stress. This is manifest through a state
+        of physical and mental exhaust, it comes to alter the personality and
+        self-esteem of the worker.
       </p>
+
+      <br />
 
       <p>
-        OTHER FACTORS MAY CONTRIBUTE TO THE SITUATION, SUCH AS TASKS AND
-        DEMANDING EXTRALABORAL ACTIVITIES, CERTAIN PERSONALITY TRAITS LIKE
-        PERFECTIONISM AND A STRESSFUL LIFESTYLE
+        Other factors may contribute to the situation, such as tasks and
+        demanding extrafloral activities, certain personality traits like
+        perfectionism and a stressful lifestyle.
       </p>
 
+      <br />
       <p>
-        THIS SYNDROME CAN AFFECT ANYONE. BUT USUALLY HAVE TO AFFECT THOSE WHO
-        HAVE JOBS THAT ARE PHYSICAL OR EMOTIONALLY STRESSING, LIKE NURSES,
-        POLICE, ASSISTANTS SOCIAL ETC. OR TO PEOPLE WHO ARE GOING THROUGH A
-        STRESSFUL TIME IN LIFE OR ARE YOU SUPPORTING A BEING THAT IS GOING
-        THROUGH A STRESSING MOMENT
+        This syndrome can affect anyone. But usually have to affect those who
+        have jobs that are physical or emotionally stressing, like nurses,
+        police, assistants social etc. Or to people who are going through a
+        stressful time in life or are you supporting a being that is going
+        through a stressing moment.
       </p>
 
-      <p>MORE INFORMATION IN:</p>
+      <br />
+      <p>More information in:</p>
 
       <a href="https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642">
         https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642
       </a>
       <br />
-      <br />
       <a href="https://www.webmd.com/mental-health/burnout-symptoms-signs">
         https://www.webmd.com/mental-health/burnout-symptoms-signs
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };
@@ -75,36 +81,41 @@ const ContenidoEnEspañol = () => {
       <h1>BURNOUT</h1>
 
       <p>
-        EL TERMINO BURNOUT HACE REFERENCIA AL ESTRES LABORAL. ESTE SE MANIFIESTA
-        A TRAVÉS DE UN ESTADO DE AGOTAMIENTO FISICO Y MENTAL LLEGA A ALTERAR LA
-        PERSONALIDAD Y AUTOESTIMA DEL TRABAJADOR
+        El termino burnout hace referencia al estrés laboral. Este se manifiesta
+        a través de un estado de agotamiento físico y mental llega a alterar la
+        personalidad y autoestima del trabajador.
       </p>
+
+      <br />
 
       <p>
-        OTROS FACTROES PUEDEN CONTRIBUIR CON LA SITUACIÓN, COMO TAREAS Y
-        ACTIVIDADES EXTRALABORALES EXIGENTES, CIERTOS RASGOS DE PERSONALIDAD
-        COMO EL PERFECCIONISMO Y UN ESTILO DE VIDA ESTRESANTE
+        Otros factores pueden contribuir con la situación, como tareas y
+        actividades extralaborales exigentes, ciertos rasgos de personalidad
+        como el perfeccionismo y un estilo de vida estresante.
       </p>
-
+      <br />
       <p>
-        ESTE SINDROME PUEDE AFECTAR A CUALQUIER PERSONA. PERO USUALMENTE TIENDE
-        A AFECTAR A AQUELLAS QUE TIENEN TRABAJOS QUE SON FISICOS O
-        EMOCIONALMENTE ESTRESANTES, COMO ANFERMEROS, POLICIAS, ASISTENTES
-        SOCIALES ETC. O A PERSONAS QUE ESTÁN ATRAVESANDO UN MOMENTO ESTRESANTE
-        EN LA VIDA O ESTAN APOYANDO A UN SER QUE ESTA PASANDO POR UN MOMENTO
-        ESTRESANTE
+        Este síndrome puede afectar a cualquier persona. Pero usualmente tiende
+        a afectar a aquellas que tienen trabajos que son físicos o
+        emocionalmente estresantes, como enfermeros, policías, asistentes
+        sociales etc. O a personas que están atravesando un momento estresante
+        en la vida o están apoyando a un ser que está pasando por un momento
+        estresante.
       </p>
-
-      <p>MAS INFORMACION EN:</p>
-
+      <br />
+      <p>Mas información en:</p>
+      <br />
       <a href="https://ada.com/es/conditions/burnout/">
         https://ada.com/es/conditions/burnout/
       </a>
       <br />
-      <br />
+
       <a href="https://www.quironprevencion.com/blogs/es/prevenidos/sintomas-sindrome-burnout-identificarlo">
         https://www.quironprevencion.com/blogs/es/prevenidos/sintomas-sindrome-burnout-identificarlo
       </a>
+
+      <br />
+      <br />
     </div>
   );
 };

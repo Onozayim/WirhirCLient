@@ -15,7 +15,7 @@ const Result = ({ title, message, score, maxScore }) => {
 
       <div className="main__container">
         <h1>{title}</h1>
-        {(score * 100) / maxScore > 0 && (score * 100) / maxScore < 30 && (
+        {(score * 100) / maxScore >= 0 && (score * 100) / maxScore <= 30 && (
           <p>
             {lenguage === "español"
               ? "NO SE PRESENTA CASI NINGUN SINTOMA "

@@ -65,13 +65,13 @@ const BipolarTest = () => {
       <Result
         title={
           lenguage === "español"
-            ? "RESULTADO DE TEST DE SINTOMAS SOBRE TRANSTORNO BIPOLAR"
-            : "RESULT OF BIPOLAR DISORDER SYMPTOMS TEST"
+            ? "Resultado de test de síntomas sobre trastorno bipolar"
+            : "Result of bipolar disorder symptoms test"
         }
         message={
           lenguage === "español"
-            ? "ESTE TEST NO SIRVE PARA QUE TE AUTO RECETES, PORFAVOR RECUERDA QUE ESTOS RESULTADOS NO SON OFICIALES, SI CREES QUE NECESITAS AYUDA, VE A BUSCARLA SIN IMPORTAR EL RESULTADO DEL TEST"
-            : "THIS TEST IS NOT USED FOR YOU TO SELF-RECEIVE YOURSELF, PLEASE REMEMBER THAT THESE RESULTS ARE NOT OFFICIAL, IF YOU THINK YOU NEED HELP, GO AND SEEK IT REGARDLESS OF THE TEST RESULT"
+            ? "Este test no sirve para que te auto recetes, por favor recuerda que estos resultados no son oficiales, si crees que necesitas ayuda, ve a buscarla sin importar el resultado del test."
+            : "This test is not used for you to self-receive yourself, please remember that these results are not official, if you think you need help, go and seek it regardless of the test result."
         }
         score={score}
         maxScore={14}
@@ -95,43 +95,46 @@ const BipolarTest = () => {
           </h1>
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿HAY DIAS QUE TE SIENTES CON MUY POCO ANIMO?"
-              : "ARE THERE DAYS WHEN YOU FELL VERY LOW?"}
+              ? "¿Hay días que te sientes con muy poco animo?"
+              : "Are there days when you fell very low?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿ES FACIL IRRITARTE?"
-              : "IT'S EASY TO YOU TO GET IRRITATED?"}
+              ? "¿Es fácil irritarte?"
+              : "It's easy for you to get irritated?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿LA CONFIANZA EN TI MISMO CAMBIA CON LOS DIAS?"
-              : "YOUR SELF-CONFIDENCE CAHNGES WITH THE DAYS?"}
+              ? "¿La confianza en ti mismo cambia con los días?"
+              : "Your self-confidence changes with the days?"}
           </Question>
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿SUELES HABLAR MAS QUE LAS PERSONAS PROMEDIO?"
-              : "DO YOU USUALLY TALK MORE THAN AVERAGE PEOPLE"}
+              ? "¿Sueles hablar mas que las personas promedio?"
+              : "Do you usually talk more than average people?"}
           </Question>
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
-              ? "¿TE DISTRAES FACILMENTE?"
-              : "ARE YOU DISTURBED EASILY?"}
+              ? "¿Te distraes fácilmente?"
+              : "Are you disturbed easily?"}
           </Question>
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"
-              ? "¿CARECES DE CRITERIO?"
-              : "DO YOU HAVE LACK OF CRITERION?"}
+              ? "¿Careces de criterio?"
+              : "Do you have lack of criterion?"}
           </Question>
           <Question setQuestion={setAnswer7}>
             {lenguage === "español"
-              ? "¿SOLO REQUIERES DE POCAS HORAS DE SUEÑO?"
-              : "DO YOU ONLY REQUIRE A FEW HOURS OF SLEEP?"}
+              ? "¿Solo requieres de pocas horas de sueño?"
+              : "Do you only require a few hours of sleep?"}
           </Question>
 
           <button type="submit">
             {lenguage === "españo" ? "ENVIAR" : "SEND"}
           </button>
+
+          <br />
+          <br />
         </form>
       </div>
 

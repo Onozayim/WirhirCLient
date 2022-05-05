@@ -79,13 +79,13 @@ const AnxietyTest = () => {
       <Result
         title={
           lenguage === "español"
-            ? "RESULTADO DE TEST DE SINTOMAS SOBRE ANSIEDAD"
-            : "RESULT OF ANXIETY SYMPTOMS TESTS"
+            ? "Resultado de test de sintomas sobre ansiedad"
+            : "Result of anxiety symptoms tests"
         }
         message={
           lenguage === "español"
-            ? "ESTE TEST NO SIRVE PARA QUE TE AUTO RECETES, PORFAVOR RECUERDA QUE ESTOS RESULTADOS NO SON OFICIALES, SI CREES QUE NECESITAS AYUDA, VE A BUSCARLA SIN IMPORTAR EL RESULTADO DEL TEST"
-            : "THIS TEST IS NOT USED FOR YOU TO SELF-RECEIVE YOURSELF, PLEASE REMEMBER THAT THESE RESULTS ARE NOT OFFICIAL, IF YOU THINK YOU NEED HELP, GO AND SEEK IT REGARDLESS OF THE TEST RESULT"
+            ? "Este test no sirve para que te autorrecetes, por favor recuerda que estos resultados no son oficiales, si crees que necesitas ayuda, ve a buscarla sin importar el resultado del test."
+            : "This test is not used for you to self-receive yourself, please remember that these results are not official, if you think you need help, go and seek it regardless of the test result."
         }
         score={score}
         maxScore={24}
@@ -108,68 +108,71 @@ const AnxietyTest = () => {
           </h1>
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENSACION DE NERVIOSISMO, AGITACION Y TENSION?"
-              : "DO YOU USE TO HAVE A SENSATION OF NERVOSISM, AGITATION AND TENSION?"}
+              ? "¿Sueles tener sensación de nerviosismo, agitación y tensión?"
+              : "Do you use to have a sensation of nervosism, agitation and tension?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿SUELES TENER SNESACION DE PELIGRO INMINENTE, PANICO O CATASTROFE?"
-              : "DO YOU USE TO HAVE A FEELING OF IMMINENT DANGER, PANIC OR CATASTROPHE?"}
+              ? "¿Sueles tener sensación de peligro inminente, pánico o catástrofe?"
+              : "Do you use to have a feeling of imminent danger, panic or catastrophe?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿SUELES TENER AUMENTO DEL RITMO CARDIACO CUANDO ESTAS PREOCUPADO DE ALGO?"
-              : "DO YOU USUALLY HAVE INCREASED HEART RATE WHEN YOU ARE WORRY?"}
+              ? "¿Sueles tener aumento del ritmo cardiaco cuando estas preocupado de algo?"
+              : "Do you usually have increased heart rate when you are worried?"}
           </Question>
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿SUELES TENER SENSACION DE DEBILIDAD O CANSANCIO CONSTANTE?"
-              : "DO YOU USE TO HAVE A FEELING OF CONSTANt WEAKNESS OR TIREDNESS?"}
+              ? "¿Sueles tener sensación de debilidad o cansancio constante?"
+              : "Do you use to have a feeling of constant weakness or tiredness?"}
           </Question>
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
-              ? "¿SE TE SUELE ACELERAR LA RESPIRACION EN MOMENTOS DE PREOCUPACION?"
-              : "DO YOU USUALLY ACCELERATE YOUR BREATHING IN MOMENTS OF CONCERN?"}
+              ? "¿Se te suele acelerar la respiración en momentos de preocupación?"
+              : "Do you usually accelerate your breathing in moments of concern?"}
           </Question>
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"
-              ? "¿SUELES TENER SUDORACION?"
-              : "DO YOU USUALLY HAVE SWEATING?"}
+              ? "¿Sueles tener sudoración?"
+              : "Do you usually have sweating?"}
           </Question>
           <Question setQuestion={setAnswer7}>
             {lenguage === "español"
-              ? "¿SUELES TENER TEMBLORES?"
-              : "DO YOU USUALLY HAVE TREMORS"}
+              ? "¿Sueles tener temblores?"
+              : "Do you usually have tremors?"}
           </Question>
           <Question setQuestion={setAnswer8}>
             {lenguage === "español"
-              ? "¿TIENES PROBLEMAS PARA CONCENTRARSE?"
-              : "DO YOU HAVE TROUBLE FOCUSING?"}
+              ? "¿Tienes problemas para concentrarse?"
+              : "Do you have trouble focusing?"}
           </Question>
           <Question setQuestion={setAnswer9}>
             {lenguage === "español"
-              ? "¿SUELES TENER PROBLEMAS PARA CONCILIAR EL SUEÑO?"
-              : "DO YOU USE TO HAVE PROBLEMS TO RECOVER YOUR SLEEP?"}
+              ? "¿Sueles tener problemas para conciliar el sueño?"
+              : "Do you use to have problems to recover your sleep?"}
           </Question>
           <Question setQuestion={setAnswer10}>
             {lenguage === "español"
-              ? "¿SUELES TENER PROBLEMAS GASTROINTENSINALES?"
-              : "DO YOU USE TO HAVE GASTROINTENSINAL PROBLEMS?"}
+              ? "¿Sueles tener problemas gastrointestinales?"
+              : "Do you use to have gastrointestinal problems?"}
           </Question>
           <Question setQuestion={setAnswer11}>
             {lenguage === "español"
-              ? "¿TIENES DIFICULTADES PARA CONTROLAR LAS PREOCUPACIONES?"
-              : "HAVING DIFFICULTY CONTROLLING WORRIES?"}
+              ? "¿Tienes dificultades para controlar las preocupaciones?"
+              : "Having difficulty controlling worries?"}
           </Question>
           <Question setQuestion={setAnswer12}>
             {lenguage === "español"
-              ? "¿TIENES LA NECESIDAD DE EVITAR LAS SITUACIONES QUE TE GENERAN ANSIEDAD?"
-              : "DO YOU HAVE THE NEED TO AVOID ANXIETY SITUATIONS?"}
+              ? "¿Tienes la necesidad de evitar las situaciones que te generan ansiedad?"
+              : "Do you have the need to avoid anxiety situations?"}
           </Question>
 
           <button type="submit">
             {lenguage === "español" ? "ENVIAR" : "SEND"}
           </button>
+
+          <br />
+          <br />
         </form>
       </div>
 

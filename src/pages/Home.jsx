@@ -30,27 +30,29 @@ const SpanishHome = () => {
 
       <div className="text__container">
         <p>
-          WIRHIR ES UNA RED SOCIAL QUE FUE CREADA PARA DARTE UN ESPACIO DONDE
-          PUEDAS EXPRESAR TUS EMOCIONES, SIENTETE LIBRE Y NO TE PREOCUPES, NADIE
-          PUEDE LEER TUS CONVERSACIONES O LO QUE PUBLICAS
+          Wirhir es una red social que fue creada para darte un espacio donde
+          puedas expresar tus emociones.
         </p>
 
         <p>
-          PARA MANTENER ESTA ZONA MAS SEGURA PARA TI Y LOS DEMAS USUARIOS QUE TE
-          ACOMPAÑARAN, TEN EN CUENTA QUE HAY UNAS REGLAS QUE SE TIENEN QUE
-          SEGUIR. LAS CUALES SON
+          Para mantener esta zona más segura para ti y los demás usuarios que te
+          acompañaran, ten en cuenta que hay unas reglas que se tienen que
+          seguir, las cuales son:
         </p>
+
+        <br />
 
         <ul className="article__list">
-          <li>COMENTAR SIEMPRE CON RESPETO A LOS DEMAS</li>
-          <li>NO SUBIR CONTENIDO PORNOGRAFICO O SEXUAL</li>
-          <li>NO SUBIR CONTENIDO QUE CONTENGAN VIOLENCIA EXTREMA</li>
-          <li>NO ACOSAR A LOS DEMAS</li>
+          <li>Comentar siempre con respeto a los demás.</li>
+          <li>No subir contenido pornográfico o sexual.</li>
+          <li>No subir contenido que contengan violencia extrema.</li>
+          <li>No acosar a los demás.</li>
         </ul>
 
+        <br />
         <p>
-          SI VES A ALGUIEN QUE NO ESTE CUMMPLIENDO ESTAS REGLAS, PUEDES
-          REPORTARLO
+          Sí ves a alguien que no esté cumpliendo estas reglas, puedes
+          reportarlo.
         </p>
       </div>
     </React.Fragment>
@@ -64,27 +66,29 @@ const EnglishHome = () => {
 
       <div className="text__container">
         <p>
-          WIRHIR IS A SOCIAL NETWORK THAT WAS CREATED TO GIVE YOU A SPACE WHERE
-          YOU CAN EXPRESS YOUR EMOTIONS, FEEL FREE AND DO NOT WORRY, NO ONE CAN
-          READ YOUR CONVERSATIONS OR WHAT YOU POST
+          Wirhir is a social network that was created to give you a space where
+          you can express your emotions.
         </p>
 
         <p>
-          TO KEEP THIS AREA SAFER FOR YOU AND THE OTHER USERS THAT WILL
-          ACCOMPANY YOU, KEEP IN MIND THAT THERE ARE SOME RULES THAT HAVE TO BE
-          FOLLOW, CONTINUE. WHICH ARE
+          To keep this area safer for you and the other users that will
+          accompany you, keep in mind that there are some rules that have to be
+          follow, continue. Which are:
         </p>
+
+        <br />
 
         <ul className="article__list">
-          <li>ALWAYS COMMENT WITH RESPECT FOR OTHERS</li>
-          <li>DO NOT UPLOAD PORNOGRAPHIC OR SEXUAL CONTENT</li>
-          <li>DO NOT UPLOAD CONTENT CONTAINING EXTREME VIOLENCE</li>
-          <li>NO ACOSAR A LOS DEMAS</li>
+          <li>Always comment with respect for others.</li>
+          <li>Do not upload pornographic or sexual content.</li>
+          <li>Do not upload content containing extreme violence.</li>
+          <li>Do not harass anyone.</li>
         </ul>
 
+        <br />
         <p>
-          IF YOU SEE SOMEONE WHO IS NOT FOLLOWING THESE RULES, YOU CAN REPORT
-          HIM/HER
+          If you see someone who is not following these rules, you can report
+          him/her
         </p>
       </div>
     </React.Fragment>

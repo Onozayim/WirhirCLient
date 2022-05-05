@@ -68,13 +68,13 @@ const BurnoutTest = () => {
       <Result
         title={
           lenguage === "español"
-            ? "RESULTADO DE TEST DE SINTOMAS SOBRE BURNOUT"
-            : "RESULT OF BURNOUT SYMPTOMS TEST"
+            ? "Resultado de test de síntomas sobre síndrome de trabajador quemado"
+            : "Result of burnout symptoms test"
         }
         message={
           lenguage === "español"
-            ? "ESTE TEST NO SIRVE PARA QUE TE AUTO RECETES, PORFAVOR RECUERDA QUE ESTOS RESULTADOS NO SON OFICIALES, SI CREES QUE NECESITAS AYUDA, VE A BUSCARLA SIN IMPORTAR EL RESULTADO DEL TEST"
-            : "THIS TEST IS NOT USED FOR YOU TO SELF-RECEIVE YOURSELF, PLEASE REMEMBER THAT THESE RESULTS ARE NOT OFFICIAL, IF YOU THINK YOU NEED HELP, GO AND SEEK IT REGARDLESS OF THE TEST RESULT"
+            ? "Este test no sirve para que te autorrecetes, por favor recuerda que estos resultados no son oficiales, si crees que necesitas ayuda, ve a buscarla sin importar el resultado del test."
+            : "This test is not used for you to self-receive yourself, please remember that these results are not official, if you think you need help, go and seek it regardless of the test result."
         }
         score={score}
         maxScore={14}
@@ -98,47 +98,50 @@ const BurnoutTest = () => {
         <form onSubmit={submitHandler}>
           <Question setQuestion={setAnswer1}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS SENTIDO AGOTAMIENTO FISICO Y MENTAL?"
-              : "HAVE YOU LATELY FEELING PHYSICAL AND MENTAL EXHAUSTION?"}
+              ? "¿Últimamente has sentido agotamiento físico y mental?"
+              : "Have you lately feeling physical and mental exhaustion?"}
           </Question>
           <Question setQuestion={setAnswer2}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS NOTADO UN CAMBIO EN TU PERSONALIDAD, SIENDO MAS INDIFERENTE A LOS DEMAS?"
-              : "HAVE YOU LATELY FEELING PHYSICAL AND MENTAL EXHAUSTION?"}
+              ? "¿Últimamente has notado un cambio en tu personalidad, siendo mas indiferente a los demás?"
+              : "Últimamente has notado un cambio en tu personalidad, siendo mas indiferente a los demás?"}
           </Question>
           <Question setQuestion={setAnswer3}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE VAS VISTO UN DESCENSO EN LA PRODUCTIVIDAD LABORAL Y HAS SENTIDO DESMOTIVACIÓN?"
-              : "HAVE YOU LATELY SEEN A DECREASE IN LABOR PRODUCTIVITY AND HAVE YOU FEELED DEMOTATION?"}
+              ? "¿Últimamente vas visto un descenso en la productividad laboral y has sentido desmotivación?"
+              : "Have you lately seen a decrease in labor productivity and have you felt denotation?"}
           </Question>
 
           <Question setQuestion={setAnswer4}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS NOTADO UN AUMENTO DE DISTANCIA MENTAL CON RESPECTO AL TRABAJO, O SENTIMIENTOS NEGATIVOS O CINICOS CON RESPECTO AL TRABAJO"
-              : "HAVE YOU LATELY NOTICED A INCREASED MENTAL DISTANCE FROM WORK, OR NEGATIVE OR CYNICAL FEELINGS REGARDING WORK?"}
+              ? "¿Últimamente has notado un aumento de distancia mental con respecto al trabajo, o sentimientos negativos o cínicos con respecto al trabajo"
+              : "Have you lately noticed an increased mental distance from work, or negative or cynical feelings regarding work?"}
           </Question>
 
           <Question setQuestion={setAnswer5}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS NOTADO UNA DISMINUCIÓN EN TU AUTOESTIMA?"
-              : "HAVE YOU RECENTLY NOTICED A DECREASE IN YOUR SELF-ESTEEM?"}
+              ? "¿Últimamente has notado una disminución en tu autoestima?"
+              : "Have you recently noticed a decrease in your self-esteem?"}
           </Question>
 
           <Question setQuestion={setAnswer6}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS TENIDO DIFICULTAD PARA CONCENTRARTE?"
-              : "HAVE YOU BEEN HAVING DIFFICULTY CONCENTRATING LATELY?"}
+              ? "¿Últimamente has tenido dificultad para concentrarte?"
+              : "Have you been having difficulty concentrating lately?"}
           </Question>
 
           <Question setQuestion={setAnswer7}>
             {lenguage === "español"
-              ? "¿ULTIMAMENTE HAS TENIDO SENSACIÓN DE FRACASO E IMPOTENCIA?"
-              : "HAVE YOU HAD A FEELING OF FAILURE AND IMPOTENCE LATELY?"}
+              ? "¿Últimamente has tenido sensación de fracaso e impotencia?"
+              : "Have you had a feeling of failure and impotence lately?"}
           </Question>
 
           <button type="submit">
             {lenguage === "español" ? "ENVIAR" : "SEND"}
           </button>
+
+          <br />
+          <br />
         </form>
       </div>
 

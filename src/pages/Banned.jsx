@@ -21,8 +21,8 @@ const SpanishBanned = () => {
         <h1>HAS SIDO BANEADO</h1>
 
         <p>
-          DIFERENTES USUARIOS HAN CONSIDERADO QUE TU ACTIVIDAD EN ESTE SITIO FUE
-          INADECUADA, POR LO QUE SE HA DECIDIDO BANEARTE DE TU CUENTA
+          Diferentes usuarios han considerado que tu actividad en este sitio fue
+          inadecuada, por lo que se ha decidido banearte de tu cuenta.
         </p>
       </div>
     </React.Fragment>
@@ -36,8 +36,8 @@ const EnglishBanned = () => {
         <h1>YOU HABE BEEN BANNED</h1>
 
         <p>
-          DIFFERENT USERS HAVE CONSIDERED THAT YOUR ACTIVITY ON THIS SITE WAS
-          INADEQUATE, SO IT HAS BEEN DECIDED TO BAN YOU FROM YOUR ACCOUNT
+          Different users have considered that your activity on this site was
+          inadequate, so it has been decided to ban you from your account.
         </p>
       </div>
     </React.Fragment>
