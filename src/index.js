@@ -5,7 +5,6 @@ import App from "./App";
 
 import { AuthProvider } from "./context/Auth";
 import { LenguageProvider } from "./context/Lengauge";
-import Hola from "./Hola";
 
 ReactDOM.render(
   <LenguageProvider>

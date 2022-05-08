@@ -91,7 +91,7 @@ const CallsHistory = () => {
               </div>
 
               <div className="history__data">
-                <p>{item.day}</p>
+                <p>{item.day.substr(0, 10)}</p>
                 <p>{item.hour}</p>
               </div>
 
@@ -128,7 +128,7 @@ const CallsHistory = () => {
         action={sendFriendRequest}
         close={() => setOpenFriendRequest(false)}
         open={openFriendRequest}
-        message={`Le quieres mandar una solicitud de amistad a ${requestData.receiverName} ?`}
+        message={`¿LE QUIERES MANDAR UNA SOLICITUD DE AMISTAD A ${requestData.receiverName} ?`}
         title={
           lenguage === "español"
             ? "MANDAR SOLICITUD DE AMISTAD"

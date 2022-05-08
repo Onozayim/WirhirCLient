@@ -74,7 +74,7 @@ const SingleStory = () => {
             <h1>{story.title}</h1>
             <div className="postData">
               <p>{story.publicPublisher}</p>
-              <p>{moment(story.createdAt).fromNow()}</p>
+              <p>{story.createdAt.substr(0, 10)}</p>
             </div>
           </div>
 

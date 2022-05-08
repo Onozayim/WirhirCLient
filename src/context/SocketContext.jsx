@@ -1,6 +1,13 @@
-import React, { createContext, useEffect, useRef, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { io } from "socket.io-client";
 import Peer from "simple-peer";
+import { MediaContext } from "./MediaContext";
 
 const SocketContext = createContext({
   user: {
@@ -30,6 +37,7 @@ const SocketContext = createContext({
   connectToSocket: (id, name) => {},
   startCall: () => {},
   answerCall: () => {},
+  setStream: () => {},
 });
 
 const socket = io("https://wirhir-socket.herokuapp.com", {
@@ -47,7 +55,9 @@ const ContextProvider = ({ children }) => {
     id: null,
     name: null,
   });
-  const [stream, setStream] = useState(null);
+
+  const { stream } = useContext(MediaContext);
+
   const [call, setcall] = useState({
     isReceivedCall: null,
     from: null,
@@ -56,18 +66,17 @@ const ContextProvider = ({ children }) => {
   });
   const [callAccepted, setCallAccepted] = useState(false);
 
-  const myVideo = useRef();
   const userVideo = useRef();
   const connectionRef = useRef();
 
   useEffect(() => {
-    navigator.mediaDevices
-      .getUserMedia({ audio: true, video: false })
-      .then((currentStream) => {
-        setStream(currentStream);
+    // navigator.mediaDevices
+    //   .getUserMedia({ audio: true, video: false })
+    //   .then((currentStream) => {
+    //     setStream(currentStream);
 
-        myVideo.current.srcObject = currentStream;
-      });
+    //     myVideo.current.srcObject = currentStream;
+    //   });
 
     socket.on("welcome", ({ socketId, id, name }) => {
       setUser({
@@ -176,8 +185,6 @@ const ContextProvider = ({ children }) => {
         connectToSocket,
         user,
         partner,
-        stream,
-        myVideo,
         userVideo,
         call,
         callAccepted,

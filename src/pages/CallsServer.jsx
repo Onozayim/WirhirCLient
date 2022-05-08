@@ -11,10 +11,12 @@ import { ADD_TO_HISTORY, SEND_FRIEND_REQUEST } from "../graphql/mutations";
 import "../style/CallsStyle.css";
 import { BsFillMicMuteFill, BsTelephoneXFill, BsMicFill } from "react-icons/bs";
 import ConfirmationModal from "../Components/ConfirmationModal";
+import { MediaContext } from "../context/MediaContext";
 
-const CallsServer = ({ name }) => {
+const CallsServer = ({ stream, myVideo }) => {
   const userContext = useContext(AuthContext);
   const socketContext = useContext(SocketContext);
+  const mediaContext = useContext(MediaContext);
   const userName = useContext(UserCallNameContext);
 
   const navigate = useNavigate();
@@ -65,7 +67,7 @@ const CallsServer = ({ name }) => {
   }, [socketContext.partner.id]);
 
   const mute = () => {
-    const videoTrack = socketContext.stream
+    const videoTrack = mediaContext.stream
       .getTracks()
       .find((track) => track.kind === "audio");
 
@@ -91,52 +93,46 @@ const CallsServer = ({ name }) => {
   const handleOpenModal = () => {
     setOpen(!open);
   };
+
   return (
     <React.Fragment>
       <NavBar />
       <div className="call__server__container">
-        {socketContext.stream && (
-          <React.Fragment>
-            {socketContext.user.socketId && (
-              <React.Fragment>
-                <p className="nombre__publico">
+        <React.Fragment>
+          {socketContext.user.socketId && (
+            <React.Fragment>
+              <p className="nombre__publico">
+                {lenguage === "español"
+                  ? `NOMBRE PUBLICO: ${socketContext.user.name}`
+                  : `PUBLIC NAME: ${socketContext.user.name}`}
+              </p>
+              {socketContext.partner.partnerSocketID ? (
+                <h1>{socketContext.partner.name}</h1>
+              ) : (
+                <h1>
                   {lenguage === "español"
-                    ? `NOMBRE PUBLICO: ${socketContext.user.name}`
-                    : `PUBLIC NAME: ${socketContext.user.name}`}
-                </p>
-                {socketContext.partner.partnerSocketID ? (
-                  <h1>{socketContext.partner.name}</h1>
-                ) : (
-                  <h1>
-                    {lenguage === "español"
-                      ? "ESTAS EN LA SALA DE ESPERA"
-                      : "YOU ARE ON THE WAITING ROOM"}
-                  </h1>
-                )}
+                    ? "ESTAS EN LA SALA DE ESPERA"
+                    : "YOU ARE ON THE WAITING ROOM"}
+                </h1>
+              )}
 
-                <div className="call__server__actions__container">
-                  <button onClick={mute}>
-                    {muteMic ? <BsFillMicMuteFill /> : <BsMicFill />}
-                  </button>
-                  <div style={{ width: "50px" }} />
-                  <button onClick={endCall}>
-                    <BsTelephoneXFill />
-                  </button>
-                </div>
-              </React.Fragment>
-            )}
-            <audio
-              playsInline
-              ref={socketContext.myVideo}
-              autoPlay
-              muted
-            ></audio>
+              <div className="call__server__actions__container">
+                <button onClick={mute}>
+                  {muteMic ? <BsFillMicMuteFill /> : <BsMicFill />}
+                </button>
+                <div style={{ width: "50px" }} />
+                <button onClick={endCall}>
+                  <BsTelephoneXFill />
+                </button>
+              </div>
+            </React.Fragment>
+          )}
+          <audio playsInline ref={mediaContext?.myVideo} autoPlay muted></audio>
 
-            {socketContext.partner.partnerSocketID && (
-              <audio playsInline ref={socketContext.userVideo} autoPlay></audio>
-            )}
-          </React.Fragment>
-        )}
+          {socketContext.partner.partnerSocketID && (
+            <audio playsInline ref={socketContext.userVideo} autoPlay></audio>
+          )}
+        </React.Fragment>
       </div>
       {socketContext.call.isReceivedCall ? (
         <React.Fragment>

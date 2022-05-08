@@ -17,8 +17,8 @@
 	border: none;
 	color: white;
 	border-radius: 10px;
-	width: 70%;
-	padding: 15px 0px;
+	width: 210px;
+	padding: 15px 20px;
 	margin-top: 10px;
 }
 
@@ -69,7 +69,7 @@ h1 {
 	color: white;
 	padding: 10px;
 	border-radius: 10px;
-	width: 60%;
+	width: 210px;
 }
 
 .call__server__button {

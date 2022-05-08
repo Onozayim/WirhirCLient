@@ -211,8 +211,9 @@ const AnswerPost = ({ flag2, setFlag2, title }) => {
                 action={sendFriendRequest}
                 title={"MANDAR SOLICITUD DE AMISTAD"}
                 message={
-                  "LE QUIERES MANDAR UNA SOLICITUD DE AMISAD A " +
-                  requestData.receiverName
+                  "¿LE QUIERES MANDAR UNA SOLICITUD DE AMISAD A " +
+                  requestData.receiverName +
+                  "?"
                 }
               />
             )}
@@ -221,7 +222,7 @@ const AnswerPost = ({ flag2, setFlag2, title }) => {
               open={open3}
               close={() => setOpen3(false)}
               title={"REPORTAR COMENTARIO"}
-              message={"ESTAS SEGURO QUE QUIERES REPORTAR ESTE COMENTARIO"}
+              message={"¿ESTÁS SEGURO QUE QUIERES REPORTAR ESTE COMENTARIO?"}
               action={reportUser}
             />
           </React.Fragment>

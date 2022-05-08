@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from "@apollo/client";
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar from "../Components/Navbar";
 import { AuthContext } from "../context/Auth";
@@ -10,6 +10,8 @@ import { Backdrop, CircularProgress } from "@material-ui/core";
 import "../style/CallsStyle.css";
 import Banned from "./Banned";
 import { ADD_RANDON_NAME } from "../graphql/mutations";
+import { SocketContext } from "../context/SocketContext";
+import { MediaContext } from "../context/MediaContext";
 
 const CallsMenu = () => {
   const navigate = useNavigate();
@@ -17,6 +19,7 @@ const CallsMenu = () => {
   const context = useContext(UserCallNameContext);
   const { lenguage } = useContext(LenguageContext);
   const authContext = useContext(AuthContext);
+  const callContext = useContext(MediaContext);
 
   const { data, loading } = useQuery(GET_RANDON_NAMES);
 
@@ -128,6 +131,7 @@ const CallsMenu = () => {
   return (
     <React.Fragment>
       <NavBar />
+      <audio playsInline ref={callContext?.myVideo} muted></audio>
 
       <div className="calls__info__container">
         <p>
@@ -138,24 +142,45 @@ const CallsMenu = () => {
       </div>
 
       <div className="calls__actions">
-        <button
-          className="calls__button"
-          onClick={() => {
-            navigate("/calls/server");
-            context.setName(authContext.user.userName);
-          }}
-        >
-          {lenguage === "español" ? "ENTRAR PUBLICAMENTE" : "ENTER PUBLICLY"}
-        </button>
-        <button
-          className="calls__button"
-          onClick={() => {
-            navigate("/calls/server");
-            context.setName(createRandomName());
-          }}
-        >
-          {lenguage === "español" ? "ENTRAR ANONIMAMENTE" : "ENTER ANONYMOUSLY"}
-        </button>
+        {callContext.stream ? (
+          <React.Fragment>
+            <button
+              className="calls__button"
+              onClick={() => {
+                navigate("/calls/server");
+                context.setName(authContext.user.userName);
+              }}
+            >
+              {lenguage === "español"
+                ? "ENTRAR PUBLICAMENTE"
+                : "ENTER PUBLICLY"}
+            </button>
+            <button
+              className="calls__button"
+              onClick={() => {
+                navigate("/calls/server");
+                context.setName(createRandomName());
+              }}
+            >
+              {lenguage === "español"
+                ? "ENTRAR ANONIMAMENTE"
+                : "ENTER ANONYMOUSLY"}
+            </button>
+          </React.Fragment>
+        ) : (
+          <p
+            style={{
+              margin: "auto",
+              textAlign: "center",
+              marginBottom: "50px",
+            }}
+          >
+            {lenguage === "español"
+              ? "TIENES QUE DAR PERMISO PARA ACCEDER A TU MICROFONO PARA ENTRAR A LAS LLAMADAS"
+              : "YOU NEED TO GIVE PERMISION TO ACCESS YOUR MICROPHONE TO ENTER A CALL"}
+          </p>
+        )}
+
         <button
           className="calls__button"
           onClick={() => navigate("/calls/history")}

@@ -55,10 +55,10 @@ const ChatPage = () => {
 
     chatInfo.map((item) => {
       if (
-        subMessages?.messages?.to === item.firend1Id ||
-        subMessages?.messages?.from === item.friend1Id ||
-        subMessages?.messages?.to === item.firend2Id ||
-        subMessages?.messages?.from === item.friend2Id
+        (subMessages?.messages?.to === item.friend1Id &&
+          subMessages?.messages?.from === item.friend2Id) ||
+        (subMessages?.messages?.to === item.friend2Id &&
+          subMessages?.messages?.from === item.friend1Id)
       ) {
         const newData = {
           __typeaname: "Friend",

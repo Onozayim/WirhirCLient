@@ -43,6 +43,7 @@ import AnxietyTest from "./pages/AnxietyTest";
 import DepressionTest from "./pages/DepressionTest";
 import RecoverPassword from "./pages/RecoverPassword";
 import RecoverPasswordForm from "./pages/RecoverPasswordForm";
+import { MediaProvider } from "./context/MediaContext";
 
 const server = process.env.SERVER;
 
@@ -113,9 +114,11 @@ function App() {
             <Route
               path="/calls"
               element={
-                <CallNameProvider>
-                  <CallsMenu />
-                </CallNameProvider>
+                <MediaProvider>
+                  <CallNameProvider>
+                    <CallsMenu />
+                  </CallNameProvider>
+                </MediaProvider>
               }
             />
           ) : (
@@ -126,11 +129,13 @@ function App() {
             <Route
               path="/calls/server"
               element={
-                <CallNameProvider>
-                  <ContextProvider>
-                    <CallsServer />
-                  </ContextProvider>
-                </CallNameProvider>
+                <MediaProvider>
+                  <CallNameProvider>
+                    <ContextProvider>
+                      <CallsServer />
+                    </ContextProvider>
+                  </CallNameProvider>
+                </MediaProvider>
               }
             />
           ) : (

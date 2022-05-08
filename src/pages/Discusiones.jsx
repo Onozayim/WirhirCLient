@@ -144,7 +144,7 @@ const Discusiones = () => {
         {post && (
           <Link to={`/answers/${post.id}`}>
             <button className="btn__post">
-              {lengauge.lenguage === "español" ? "COMENTAR" : "COMMNENT"}
+              {lengauge.lenguage === "español" ? "COMENTARIOS" : "COMMNENTS "}
             </button>
           </Link>
         )}
