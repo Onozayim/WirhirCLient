@@ -51,7 +51,7 @@ const wsLink = new WebSocketLink({
   uri: `wss://mighty-badlands-64956.herokuapp.com/graphql`,
   options: {
     reconnnect: true,
-    timeout: 3000,
+    timeout: 30000,
   },
 });
 
